@@ -6,4 +6,4 @@ I'm a creative thinker which I believe is a result of being a left-handed perso
 
 The team (Ziggy & Roo):
 
-<img width="150" height="150" src="https://github.com/ke177409/Kara-Evans-Portfolio/blob/main/images/portfolio2.jpg">
+<img width="175" height="175" src="https://github.com/ke177409/Kara-Evans-Portfolio/blob/main/images/portfolio2.jpg">

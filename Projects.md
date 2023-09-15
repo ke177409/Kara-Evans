@@ -15,7 +15,7 @@ Evaluated historical data of movie rental company to provide insights prior to t
 
 ![](/images/Total_Revenue_Rentals_Rating.png)
 
-# [Market Analysis: Project Overview](https://github.com/ke177409/Kara-Evans/blob/main/Projects/Market-Analysis.md)
+# [Market Analysis: Project Overview](https://ke177409.github.io/Kara-Evans/Projects/Market-Analysis)
 Evaluated historical international video game sales data to identify trends in game genre popularity, sales figures for different geographic regions, and market competitors. Findings include regional sales trends, proportion of regional sales to global sales, and top-selling video game publishers. Used Excel to filter, sort, and clean data. Generated PivotTables to create new variables and visualizations.
 
 ![](/images/Proportion_Sales.png)

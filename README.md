@@ -23,7 +23,7 @@ Online-based program concentrated on data analysis techniques using industry-sta
 * Led and collaborated with small group to assess and present laboratory data to help shape company's strategic goals.
 
 ## Laboratory Technician | September 2015-November 2017
-* Handled a high-volume of patient samples with efficiency and accuracy in a team-oriented setting.
+* Efficiently processed a high-volume of patient samples in a team-oriented setting.
 * Applied effective decision making skills while troubleshooting sample-related issues.
 * Communicated with hospital staff regarding patient samples in a timely manner.
 
@@ -31,8 +31,8 @@ Online-based program concentrated on data analysis techniques using industry-sta
 * Analyzed test results using laboratory information management system.
 * Monitored sample status in order to meet client-specific deadlines.
 
-## For more details, check out my [resume](https://github.com/ke177409/Kara-Evans/blob/main/images/Evans.Kara%20Resume.pdf)! 
-## Interested? 
+### For more details, check out my [resume](https://github.com/ke177409/Kara-Evans/blob/main/images/Evans.Kara%20Resume.pdf)! 
+# Interested? 
 ## Send e-mails to **kara.e177409 at gmail dot com**
 ## Message and connect with me on [LinkedIn](https://www.linkedin.com/in/kara-m-evans/)!
 

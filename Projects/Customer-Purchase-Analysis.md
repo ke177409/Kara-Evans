@@ -18,7 +18,7 @@ Excel
 ## Purpose & Context
 I was tasked to perform an exploratory analysis on multiple data sets using Excel and Python to generate insights to answer key stakeholder questions. This analysis was performed for learning purposes and all data was fabricated for the CareerFoundry Data Immersion course. Each part of this project was evaluated with feedback by a tutor and mentor.
 
-## Data Cleaning and Transformation
+## Data Cleaning & Transformation
 After performing descriptive analyses on the data, I was able to identify areas where data cleaning and transformations were necessary. The following changes and variables were made:
 * Dropped column "eval_set" because data was not pertinent to analysis.
 * Created dictionaries to assign appropriate data types and consistent variable names.
@@ -48,7 +48,7 @@ Below are a few of the key visuals included in this analysis:
 <img src="https://github.com/ke177409/Customer-Purchase-Analysis/assets/118031032/3e3cb237-7564-4d01-8723-7bb4938025e5" />
 </p>
 
-## Recommendations and Findings
+## Recommendations & Findings
 * Increase advertising during peak hours (10am-11am) on the slowest days of the week (Tuesdays and Wednesdays).
 * Advertise low price-ranged products because low-spenders are the most loyal users.
 * Products advertised should include items from the most popular departments for all user groups and regions (produce, dairy/eggs, and beverage).

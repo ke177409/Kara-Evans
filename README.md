@@ -1,4 +1,4 @@
-<img src="/images/portfolio3.jpg" width=100 height=77/>
+<img src="images/portfolio3.jpg" width=100 height=77/>
 
 # About Me 
 Hi there!👋 My name is Kara. I'm a data analyst with an interest in exploring science-related topics and troubleshooting tough problems. 

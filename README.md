@@ -9,7 +9,7 @@ My professional experience has driven my desire to continue working in the healt
 
 My biggest motivation is helping others, even if it's just locating that missing document or resolving a minor technical problem. I'm seeking to enhance my abilities to support my future team members and also improve the lives of the people they serve.
 
-**I'm located in Cleveland, Ohio and seeking a full-time local position or a full-time hybrid/remote position.**
+**I'm located in Cleveland, Ohio seeking a full-time position and open to hybrid or remote opportunities.**
 
 ### To learn more about me, check out my [resume](https://github.com/ke177409/Kara-Evans/blob/main/images/Evans.Kara%20Resume.pdf)! 
 

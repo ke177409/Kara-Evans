@@ -16,7 +16,7 @@ Excel
 * Generate final report with Python visualizations
 
 ## Purpose & Context
-I was tasked to perform an exploratory analysis on multiple data sets using Excel and Python to generate insights to answer key stakeholder questions. This analysis was performed for learning purposes and all data was fabricated for the CareerFoundry Data Immersion course. Each part of this project was evaluated with feedback by a tutor and mentor.
+I performed an exploratory analysis on multiple data sets using Excel and Python to generate insights to answer key stakeholder questions. This analysis was performed for learning purposes and all data was fabricated for the CareerFoundry Data Immersion course. Each part of this project was evaluated with feedback by a tutor and mentor.
 
 ## Data Cleaning & Transformation
 After performing descriptive analyses on the data, I was able to identify areas where data cleaning and transformations were necessary. The following changes and variables were made:

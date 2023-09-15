@@ -1,7 +1,3 @@
-layout: page
-title: "Projects"
-permalink: https://ke177409.github.io/Kara-Evans/Projects
-
 # [Project 1: Medical Staffing Plan: Project Overview](https://github.com/ke177409/Medical-Staffing-Plan/tree/main)
 Created a plan to help a staffing agency distribute medical staff throughout the United States during influenza seasons.
 Performed data cleansing and statistical analyses on U.S. Census and CDC data sets using Excel and Tableau.

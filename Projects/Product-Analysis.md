@@ -15,7 +15,7 @@ Tableau
 I was tasked to perform an exploratory analysis on multiple data sets using SQL, Tableau, and Excel to generate insights to answer key stakeholder questions. I was responsible for deciding on the project scope and final presentation format. This project was a part of 
 CareerFoundry’s Data Immersion curriculum and was evaluated with feedback by a tutor and mentor.
 
-## Data Cleaning, Integration, and Transformation
+## Data Cleaning, Integration, & Transformation
 * Checked for duplicates and null values within each data table.
 * Checked for value format consistency within each column.
 * Performed inner joins to connect tables.
@@ -31,7 +31,7 @@ Below are a few of the key visuals included in this analysis:
 <img src="https://github.com/ke177409/Product-Analysis/assets/118031032/86e4c4ba-3c4e-4e21-97f6-d2215eeedf3d" width="400" height="512"/>
 </p>
 
-## Recommendations and Findings
+## Recommendations & Findings
 * Focus brand in Asian markets where largest customer base and revenue streams are located.
 * Films rated PG-13 are the most popular and generate the largest total revenue.
 * Top customers were discovered based on rental frequency and total spending. Length of membership should also be considered when measuring for customer loyalty.

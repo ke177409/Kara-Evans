@@ -12,7 +12,7 @@ Data Storytelling
 * Deliver insights that challenge stakeholder expectations
 
 ## Purpose & Context
-I was tasked to perform an exploratory analysis to answer key stakeholder questions. I was responsible for deciding on the project scope and final presentation format. This project was a part of 
+I performed an exploratory analysis to answer key stakeholder questions. I was responsible for deciding on the project scope and final presentation format. This project was a part of 
 CareerFoundry’s Data Immersion curriculum and was evaluated with feedback by a tutor and mentor.
 
 ## Data Cleaning and Transformation

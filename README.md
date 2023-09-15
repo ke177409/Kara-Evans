@@ -32,9 +32,10 @@ Online-based program concentrated on data analysis techniques using industry-sta
 * Monitored sample status in order to meet client-specific deadlines.
 
 ### For more details, check out my [resume](https://github.com/ke177409/Kara-Evans/blob/main/images/Evans.Kara%20Resume.pdf)! 
-# Interested? 
+# Interested?
 ## Send e-mails to **kara.e177409 at gmail dot com**
 ## Message and connect with me on [LinkedIn](https://www.linkedin.com/in/kara-m-evans/)!
+### *Located in Cleveland, Ohio. Open to full-time and remote work.*
 
 ### The Team (Ziggy & Roo): 
 <img src="images/portfolio2.jpg" width=230 height=250/>

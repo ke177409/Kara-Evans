@@ -56,7 +56,7 @@ Below are a few of the key visuals included in this analysis:
 * Incorporate other variables to determine customer loyalty status.
 
 ## Datasets
-* https://drive.google.com/file/d/1hweDzLp0OC-tlFoZm_PBvp2gfH_xeU0v/view?usp=sharing
+* [Zip file to final dataset](https://drive.google.com/file/d/1hweDzLp0OC-tlFoZm_PBvp2gfH_xeU0v/view?usp=sharing)
 * “The Instacart Online Grocery Shopping Dataset 2017”
   
   Accessed from www.instacart.com/datasets/grocery-shopping-2017 via Kaggle on July 15, 2023

@@ -8,7 +8,7 @@
 
 [![](images/TableauLogo_RGB.png)](https://public.tableau.com/app/profile/kara.evans)
 
-[Resume](https://github.com/ke177409/Kara-Evans/blob/main/images/Evans.Kara%20Resume.pdf)
+[Resume](https://github.com/ke177409/Kara-Evans/blob/main/images/Evans.Kara.Resume.pdf)
 
 Location: Cleveland, Ohio, USA
 

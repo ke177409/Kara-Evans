@@ -3,8 +3,7 @@ Created a plan to help a staffing agency distribute medical staff throughout the
 Performed data cleansing and statistical analyses on U.S. Census and CDC data sets using Excel and Tableau.
 Developed a dashboard to present visualizations using Tableau.
 
-## YouTube Project Walk-Through
-https://youtu.be/vcfuhCl_TEA
+### [YouTube Project Walk-Through](https://youtu.be/vcfuhCl_TEA)
 
 ## Tools & Skills
 Excel
@@ -49,6 +48,6 @@ tend to have lower mortality rates.
 * The weighted average mortality rate and staff-to-patient ratio should be used to determine how many staff members need to be sent to each state.
 
 ## Datasets
-* “Influenza deaths by geography, time, age, and gender”, Source: CDC (https://wonder.cdc.gov/ucd-icd10.html)
-* “Population data by geography”, Source: US Census Bureau (https://coach-courses-us.s3.amazonaws.com/public/courses/data-immersion/A1-A2_Influenza_Project/Census_Population_transformed_202101.csv)
-* “Counts of influenza laboratory test results by state”, Source: CDC Fluview (https://images.careerfoundry.com/public/courses/data-immersion/A1-A2_Influenza_Project/CDC_Influenza_Visits.xlsx)
+* “Influenza deaths by geography, time, age, and gender”, Source: [CDC](https://wonder.cdc.gov/ucd-icd10.html)
+* “Population data by geography”, Source: [US Census Bureau, CSV file](https://coach-courses-us.s3.amazonaws.com/public/courses/data-immersion/A1-A2_Influenza_Project/Census_Population_transformed_202101.csv)
+* “Counts of influenza laboratory test results by state”, Source: [CDC Fluview, Excel file](https://images.careerfoundry.com/public/courses/data-immersion/A1-A2_Influenza_Project/CDC_Influenza_Visits.xlsx)

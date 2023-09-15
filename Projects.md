@@ -14,3 +14,8 @@ Developed insights for online grocery service sales and marketing teams using cu
 Evaluated historical data of movie rental company to provide insights prior to the launch of a new online streaming service. Findings include top-earning films, customer behvaior, and geographic sales data. Used SQL to organize, clean, filter, and join data to answer complex business questions. Created visuals with SQL results in Tableau.
 
 ![](/images/Total_Revenue_Rentals_Rating.png)
+
+# [Market Analysis: Project Overview](https://github.com/ke177409/Kara-Evans/blob/main/Projects/Market-Analysis.md)
+Evaluated historical international video game sales data to identify trends in game genre popularity, sales figures for different geographic regions, and market competitors. Findings include regional sales trends, proportion of regional sales to global sales, and top-selling video game publishers. Used Excel to filter, sort, and clean data. Generated PivotTables to create new variables and visualizations.
+
+![](/images/Proportion_Sales.png)

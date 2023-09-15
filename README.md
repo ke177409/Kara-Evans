@@ -38,7 +38,7 @@ Online-based program concentrated on data analysis techniques using industry-sta
 * Monitored sample status in order to meet client-specific deadlines.
 
 # Other Employment
-## Optometric Technician January 2022-present
+## Optometric Technician January 2023-present
 * Enter patient data into electronic practice management system.
 * Schedule appointments and assist with patient inqueries.
 * Search and interpret patient insurance plans.

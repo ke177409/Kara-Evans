@@ -5,7 +5,7 @@ Developed a dashboard to present visualizations using Tableau.
 
 ![](/images/map_mortality.png)
 
-# [Customer Purchase Analysis: Project Overview](https://ke177409.github.io/Kara-Evans/Projects/Customer-Purchase-Analysis)
+# [Customer Purchase Analysis: Project Overview](https://ke177409.github.io/Kara-Evans/Projects/Customer-Purchase-Analysis?web=1)
 Developed insights for online grocery service sales and marketing teams using customer data. Findings include ideal time periods for advertising, popular products, and customer demographics. Prepared data for exploratory analysis by merging data frames and generating new variables in Python. Created visualizations in Python to illustrate relationships between variables.
 
 ![](/images/line_prices_orders_hour.png)

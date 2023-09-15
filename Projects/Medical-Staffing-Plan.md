@@ -16,7 +16,7 @@ Tableau
 * Visualizations
 
 ## Purpose & Context
-I was tasked to perform exploratory and statistical analyses on multiple data sets using Excel and Tableau. This project was a part of CareerFoundry’s Data Immersion curriculum and was evaluated with feedback by a tutor and mentor. I was responsible for deciding on the project scope and final presentation format.
+I performed exploratory and statistical analyses on multiple data sets using Excel and Tableau. This project was a part of CareerFoundry’s Data Immersion curriculum and was evaluated with feedback by a tutor and mentor. I was responsible for deciding on the project scope and final presentation format.
 
 ## Data Cleaning, Integration, & Transformation
 * Removed duplicates using concatenate and COUNTIF functions in Excel to retain unique combinations of County/Year/Population in the US Census dataset.

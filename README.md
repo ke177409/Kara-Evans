@@ -1,4 +1,4 @@
-![](https://github.com/ke177409/Kara-Evans/blob/main/images/portfolio3.jpg)
+<img src="https://github.com/ke177409/Kara-Evans/blob/main/images/portfolio3.jpg">
 
 # About Me 
 Hi there!👋 My name is Kara. I'm a data analyst with an interest in exploring science-related topics and troubleshooting tough problems. 

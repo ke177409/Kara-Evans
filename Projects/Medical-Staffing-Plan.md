@@ -41,7 +41,7 @@ infections.
 
 Portraying multiple variables in one visualization helped me uncover insights that were not easily identifiable from the raw data. For example, states with more medical staff than influenza patients also 
 tend to have lower mortality rates. 
-![Staff to Patient ratio (1)](https://github.com/ke177409/Medical-Staffing-Plan/assets/118031032/ba912df1-fc30-4bed-9866-db2145011bde)
+![Staff to Patient ratio (1)](https://github.com/ke177409/Medical-Staffing-Plan/blob/main/Visualizations/Staff%20to%20Patient%20ratio%20(1).png)
 
 ## Recommendations & Findings
 * The staffing agency should begin allocating medical staff prior to January each year when influenza death counts are highest.

@@ -7,6 +7,8 @@ Over the past eight years, I have worked mostly in biomedical laboratories, wher
 
 I'm a creative thinker, which I believe is a result of being a left-handed person living in a right-handed world. I like to develop my own solutions and go against the "norm" because the best answer usually isn't the obvious answer.
 
+### To learn more about me, check out my [resume](https://github.com/ke177409/Kara-Evans/blob/main/images/Evans.Kara%20Resume.pdf)! 
+
 # Education
 ## Data Analytics Certificate | CareerFoundry
 *Expected Completion: November 2023*
@@ -31,7 +33,6 @@ Online-based program concentrated on data analysis techniques using industry-sta
 * Analyzed test results using laboratory information management system.
 * Monitored sample status in order to meet client-specific deadlines.
 
-### For more details, check out my [resume](https://github.com/ke177409/Kara-Evans/blob/main/images/Evans.Kara%20Resume.pdf)! 
 # Interested?
 ## Send e-mails to **kara.e177409 at gmail dot com**
 ## Message and connect with me on [LinkedIn](https://www.linkedin.com/in/kara-m-evans/)!

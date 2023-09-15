@@ -39,4 +39,4 @@ Below are a few of the key visuals included in this analysis:
 * Continually update film inventory based on customer demographics and behavior.
 
 ## Dataset
-See "Rockbuster.tar" in files for dataset
+[Rockbuster.tar file](https://github.com/ke177409/Product-Analysis/blob/main/Rockbuster.zip)

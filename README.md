@@ -1,4 +1,4 @@
-<img src="https://github.com/ke177409/Kara-Evans/blob/main/images/portfolio3.jpg" width=1000 height=477/>
+<img src="https://github.com/ke177409/Kara-Evans/blob/main/images/portfolio3.jpg" width=100 height=77/>
 
 # About Me 
 Hi there!👋 My name is Kara. I'm a data analyst with an interest in exploring science-related topics and troubleshooting tough problems. 

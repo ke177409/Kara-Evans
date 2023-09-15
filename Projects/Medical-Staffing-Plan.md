@@ -18,7 +18,7 @@ Tableau
 ## Purpose & Context
 I was tasked to perform exploratory and statistical analyses on multiple data sets using Excel and Tableau. This project was a part of CareerFoundry’s Data Immersion curriculum and was evaluated with feedback by a tutor and mentor. I was responsible for deciding on the project scope and final presentation format.
 
-## Data Cleaning, Integration, and Transformation
+## Data Cleaning, Integration, & Transformation
 * Removed duplicates using concatenate and COUNTIF functions in Excel to retain unique combinations of County/Year/Population in the US Census dataset.
 * Imputed missing state values in Influenza Death dataset by using other identifying variables.
 * Removed columns and rows with missing or irrelevant data:
@@ -43,7 +43,7 @@ Portraying multiple variables in one visualization helped me uncover insights th
 tend to have lower mortality rates. 
 ![Staff to Patient ratio (1)](https://github.com/ke177409/Medical-Staffing-Plan/assets/118031032/ba912df1-fc30-4bed-9866-db2145011bde)
 
-## Recommendations and Findings
+## Recommendations & Findings
 * The staffing agency should begin allocating medical staff prior to January each year when influenza death counts are highest.
 * The weighted average mortality rate and staff-to-patient ratio should be used to determine how many staff members need to be sent to each state.
 

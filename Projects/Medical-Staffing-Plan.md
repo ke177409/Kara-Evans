@@ -34,7 +34,7 @@ I performed exploratory and statistical analyses on multiple data sets using Exc
 * Created a new variable that normalizes mortality rates for each age group.
 
 ## Visualizations
-This line graph confirms that there is an upward trend of influenza patients in the U.S. each year. 
+This line graph displays annual totals of influenza infections based on reported influenza test results. This confirms that there is an upward trend of influenza patients in the U.S. each year. 
 <img src="https://github.com/ke177409/Medical-Staffing-Plan/blob/main/Visualizations/Line%20Influenza%20Patients.png"/>
 
 States with a darker red shading represent those with higher counts of influenza deaths for all age groups. Large and darker shaded dots within each state represent larger total population sizes. California and Texas have the largest population sizes. New York and California have the highest counts of influenza deaths. 
@@ -50,7 +50,7 @@ Spatial analysis was crucial for this project’s goal. With the use of an intui
 infections. This will allow the staffing agency to determine where to send medical staff. The next two images represent influenza deaths for age groups 45 and older. The first map shows the count of deaths and total population where California and New York are still the most affected.
 <img src="https://github.com/ke177409/Medical-Staffing-Plan/blob/main/Visualizations/Map%20Deaths%2045-85%20%26%20Pop..png"/>
 
-However, the second map uses a more precise measure called the weighted average mortality rate. This measure was calculated using the proportion of each vulnerable age group’s population and the total mortality rate for that age group. The mortality rate scale assigns the dark red shading as high mortality and the lighter pink shading as low mortality. Increments in the mortality rate scale were labelled as follows: low, low-moderate, moderate, moderate-high, high. Using this measure shows more states heavily affected by influenza and California is no longer one of the top states! If the first map was used to determine where to send staff, many states would be left understaffed. States with high mortality rates will receive enough staff to meet a minimum 90% staff-to-patient ratio (up to 110% to avoid overstaffing). We can also incorporate the seasonality of previous seasons to predict when additional staff will be needed. 
+However, the second map uses a more precise measure called the weighted average mortality rate. This measure was calculated using the proportion of each vulnerable age group’s population and the total mortality rate for that age group. The mortality rate scale assigns the dark red shading as high mortality and the lighter pink shading as low mortality. Increments in the mortality rate scale were labelled as follows: low, low-moderate, moderate, moderate-high, high. Using this measure shows more states heavily affected by influenza and California is no longer one of the top states. If the first map was used to determine where to send staff, many states would be left understaffed. States with high mortality rates will receive enough staff to meet a minimum 90% staff-to-patient ratio (up to 110% to avoid overstaffing). We can also incorporate the seasonality of previous seasons to predict when additional staff will be needed. 
   <img src="https://github.com/ke177409/Medical-Staffing-Plan/blob/main/Visualizations/map_mortality.png"/>
 
 This bar chart shows the staff-to-influenza patient ratios for each state. Montana and New Hampshire are over staffed and have a low to low-moderate mortality rate, respectively. 
@@ -66,6 +66,6 @@ D.C. is the most understaffed, but influenza death counts were not available in 
 * Measure other factors that may affect influenza rates such as access to vaccinations and education on influenza prevention.
 
 ## Datasets
-* “Influenza deaths by geography, time, age, and gender”, Source: [CDC](https://wonder.cdc.gov/ucd-icd10.html)
-* “Population data by geography”, Source: [US Census Bureau, CSV file](https://coach-courses-us.s3.amazonaws.com/public/courses/data-immersion/A1-A2_Influenza_Project/Census_Population_transformed_202101.csv)
-* “Counts of influenza laboratory test results by state”, Source: [CDC Fluview, Excel file](https://images.careerfoundry.com/public/courses/data-immersion/A1-A2_Influenza_Project/CDC_Influenza_Visits.xlsx)
+* *Underlying Cause of Death, 1999-2020* [Data set]. CDC. https://wonder.cdc.gov/ucd-icd10.html
+* *Population data by geography* [Data set]. US Census Bureau, CSV file. https://coach-courses-us.s3.amazonaws.com/public/courses/data-immersion/A1-A2_Influenza_Project/Census_Population_transformed_202101.csv
+* *Counts of influenza laboratory test results by state* [Data set]. CDC Fluview, Excel file. https://images.careerfoundry.com/public/courses/data-immersion/A1-A2_Influenza_Project/CDC_Influenza_Visits.xlsx

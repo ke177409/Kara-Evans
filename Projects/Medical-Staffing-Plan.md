@@ -1,9 +1,10 @@
 # Medical Staffing Plan: Project Overview
-Created a plan to help a staffing agency distribute medical staff throughout the United States during influenza seasons.
-Performed data cleansing and statistical analyses on U.S. Census and CDC data sets using Excel and Tableau.
-Developed a dashboard to present visualizations using Tableau.
+Hospitals and clinics in the U.S. experience a surge of incoming patients during influenza seasons which puts a strain on hospital staff as well as patients seeking treatment. I created a plan to help a staffing agency distribute medical staff throughout the United States during influenza seasons.
+I performed data cleansing and statistical analyses on United States Census and Centers for Disease Control and Prevention (CDC) data from 2010 to 2017 using Excel and Tableau.
+An interactive dashboard was created to present visualizations using Tableau.
 
 ### [YouTube Project Walk-Through](https://youtu.be/vcfuhCl_TEA)
+### [Tableau Dashboard](https://public.tableau.com/shared/YD3NBN39Z?:display_count=n&:origin=viz_share_link)
 
 ## Tools & Skills
 Excel
@@ -19,7 +20,7 @@ Tableau
 I performed exploratory and statistical analyses on multiple data sets using Excel and Tableau. This project was a part of CareerFoundry’s Data Immersion curriculum and was evaluated with feedback by a tutor and mentor. I was responsible for deciding on the project scope and final presentation format.
 
 ## Data Cleaning, Integration, & Transformation
-* Removed duplicates using concatenate and COUNTIF functions in Excel to retain unique combinations of County/Year/Population in the US Census dataset.
+* Removed duplicates using concatenate and COUNTIF functions in Excel to retain unique combinations of County/Year/Population in the U.S. Census dataset.
 * Imputed missing state values in Influenza Death dataset by using other identifying variables.
 * Removed columns and rows with missing or irrelevant data:
   * All age groups and the state of Florida in ILI visits dataset
@@ -33,19 +34,36 @@ I performed exploratory and statistical analyses on multiple data sets using Exc
 * Created a new variable that normalizes mortality rates for each age group.
 
 ## Visualizations
-Spatial analysis was crucial for this project’s goal. With the use of an intuitive color gradient, I was able to create a map of the United States that draws the viewer’s eyes to areas most affected by influenza 
-infections.
-<p align="center">
-  <img src="https://github.com/ke177409/Medical-Staffing-Plan/assets/118031032/a725ebdd-f43c-4ba7-af73-8a44ff0f1b08" width="475" height="323"/>
-</p>
+This line graph confirms that there is an upward trend of influenza patients in the U.S. each year. 
+<img src="https://github.com/ke177409/Medical-Staffing-Plan/blob/main/Visualizations/Line%20Influenza%20Patients.png"/>
 
-Portraying multiple variables in one visualization helped me uncover insights that were not easily identifiable from the raw data. For example, states with more medical staff than influenza patients also 
-tend to have lower mortality rates. 
+States with a darker red shading represent those with higher counts of influenza deaths for all age groups. Large and darker shaded dots within each state represent larger total population sizes. California and Texas have the largest population sizes. New York and California have the highest counts of influenza deaths. 
+<img src="https://github.com/ke177409/Medical-Staffing-Plan/blob/main/Visualizations/Map%20U.S.%20Deaths%20%26%20Pop..png" />
+
+I explored the proporitions of age groups in each state population based on the assumption that certain age groups are more susceptible to influenza than others. This line chart shows the sum of influenza deaths for all age groups as well as the seasonality of these infections. January has the highest number of deaths and August has the lowest number of deaths. Age groups 45 years and older also had the highest rates of deaths and were labelled as vulnerable populations in this analysis.
+<img src="https://github.com/ke177409/Medical-Staffing-Plan/blob/main/Visualizations/Line%20Deaths%20by%20Month.png"/>
+
+This stacked bar chart shows the proportion of each vulnerable age group population in each state. Maine had the largest proportion and Utah had the lowest. 
+<img src="https://github.com/ke177409/Medical-Staffing-Plan/blob/main/Visualizations/%25%20Vulnerable%20Ages.png"/>
+
+Spatial analysis was crucial for this project’s goal. With the use of an intuitive color gradient, I created a map of the United States that draws the viewer’s eyes to areas most affected by influenza 
+infections. This will allow the staffing agency to determine where to send medical staff. The next two images represent influenza deaths for age groups 45 and older. The first map shows the count of deaths and total population where California and New York are still the most affected.
+<img src="https://github.com/ke177409/Medical-Staffing-Plan/blob/main/Visualizations/Map%20Deaths%2045-85%20%26%20Pop..png"/>
+
+However, the second map uses a more precise measure called the weighted average mortality rate. This measure was calculated using the proportion of each vulnerable age group’s population and the total mortality rate for that age group. The mortality rate scale assigns the dark red shading as high mortality and the lighter pink shading as low mortality. Increments in the mortality rate scale were labelled as follows: low, low-moderate, moderate, moderate-high, high. Using this measure shows more states heavily affected by influenza and California is no longer one of the top states! If the first map was used to determine where to send staff, many states would be left understaffed. States with high mortality rates will receive enough staff to meet a minimum 90% staff-to-patient ratio (up to 110% to avoid overstaffing). We can also incorporate the seasonality of previous seasons to predict when additional staff will be needed. 
+  <img src="https://github.com/ke177409/Medical-Staffing-Plan/blob/main/Visualizations/map_mortality.png"/>
+
+This bar chart shows the staff-to-influenza patient ratios for each state. Montana and New Hampshire are over staffed and have a low to low-moderate mortality rate, respectively. 
+D.C. is the most understaffed, but influenza death counts were not available in the data set used in this analysis. Louisiana and Georgia have low percentages of staff and their mortality rates are moderate-high and high, respectively. I concluded that states with more medical staff than influenza patients also tend to have lower mortality rates. It is the intention of this project to boost the number of medical staff in these states enough to see a noticeable decline in mortalities.
 ![Staff to Patient ratio (1)](https://github.com/ke177409/Medical-Staffing-Plan/blob/main/Visualizations/Staff%20to%20Patient%20ratio%20(1).png)
 
 ## Recommendations & Findings
 * The staffing agency should begin allocating medical staff prior to January each year when influenza death counts are highest.
 * The weighted average mortality rate and staff-to-patient ratio should be used to determine how many staff members need to be sent to each state.
+* Incorporate real-time updates for this dashboard to address staffing needs more precisely.
+* The state of Florida needs to be included in the data collection of the number of providers and influenza patients to determine staff-to-patient ratios.
+* D.C. needs to need included in data collection for influenza death counts to determine mortality rates.
+* Measure other factors that may affect influenza rates such as access to vaccinations and education on influenza prevention.
 
 ## Datasets
 * “Influenza deaths by geography, time, age, and gender”, Source: [CDC](https://wonder.cdc.gov/ucd-icd10.html)

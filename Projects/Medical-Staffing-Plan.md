@@ -4,7 +4,7 @@ I performed data cleansing and statistical analyses on historical data obtained 
 An interactive dashboard was created to present visualizations using Tableau.
 
 ### [YouTube Project Walk-Through](https://youtu.be/vcfuhCl_TEA)
-### [Tableau Dashboard](https://public.tableau.com/shared/YD3NBN39Z?:display_count=n&:origin=viz_share_link)
+### [Tableau Dashboard](https://public.tableau.com/shared/G7BRJWCG4?:display_count=n&:origin=viz_share_link)
 
 ## Tools & Skills
 Excel
@@ -74,5 +74,7 @@ D.C. is the most understaffed, but influenza death counts were not available in 
 
 ## Datasets
 * *Underlying Cause of Death, 1999-2020* [Data set]. CDC. https://wonder.cdc.gov/ucd-icd10.html
+  
 * *Population data by geography* [Data set]. US Census Bureau, CSV file. https://coach-courses-us.s3.amazonaws.com/public/courses/data-immersion/A1-A2_Influenza_Project/Census_Population_transformed_202101.csv
+  
 * *Counts of influenza laboratory test results by state* [Data set]. CDC Fluview, Excel file. https://images.careerfoundry.com/public/courses/data-immersion/A1-A2_Influenza_Project/CDC_Influenza_Visits.xlsx

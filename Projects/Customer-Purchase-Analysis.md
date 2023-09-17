@@ -20,32 +20,103 @@ I performed an exploratory analysis on multiple data sets using Excel and Python
 
 ## Data Cleaning & Transformation
 After performing descriptive analyses on the data, I was able to identify areas where data cleaning and transformations were necessary. The following changes and variables were made:
-* Dropped column "eval_set" because data was not pertinent to analysis.
+* Dropped "eval_set" column because data was not pertinent to analysis.
+* Dropped columns "First Name" and "Surname" to remove personally identifiable information.
+* Renamed columns for clarity and consistency.
 * Created dictionaries to assign appropriate data types and consistent variable names.
 * Checked datasets for mixed data types, missing data, and duplicate data.
+ * Removed missing values in "product_name" column and duplicates from products dataset.
 * Renamed null values as "N/A" in the orders dataset to flag as a user's initial order.
-* Removed missing values in "product_name" column and duplicates from products dataset.
-* Generated new columns using if- and for-loops in Python:
+* Generated to filter data and create new columns using if- and for-loops in Python:
   * Product price ranges ("price_label")
   * Day of week popularity ("busiest_day")
   * Hour of day popularity ("busiest_period_of_day")
+  * State regions ("Region")
+  * Excluded users with less than five maximum orders
+  * Users with dependents ("Parent_Flag")
 * Used transform() and loc() functions in Python to aggregate customer data and create new variables:
   * Created "max_order" column to determine maximum number of orders and assign customer loyalty status
   * Created "average_price" column to determine average purchased item price and assign customer spending label
   * Created "median_days_prior_order" column to determine median number of days since prior order and assign customer frequency label
+  * Created "Age_Profile" column to split users into different age groups
  
 ## Visualizations
-Below are a few of the key visuals included in this analysis:
-<p align="center">
-<img src="https://github.com/ke177409/Customer-Purchase-Analysis/assets/118031032/0d50db28-cf27-4879-a42c-69cbbfcc93af"/>
-</p>
+I began by creating visuals that would help me gain an understanding of customer behavior. Each day of the week are represented as follows:
+
+0 = Saturday
+
+1 = Sunday
+
+2 = Monday
+
+3 = Tuesday
+
+4 = Wednesday
+
+5 = Thursday
+
+6 = Friday
+
+The first histogram measures the total number of orders for all users for each day of the week. Saturday (day 0) and Sunday (day 1) were the busisest days. Tuesday (day 3) and Wednesday (day 4) were the slowest days. 
+The second histogram measures the total number of orders for each hour of the day for all users and all days of the week. 10am and 11am were the most popular times among all users. I also observed that orders begin to 
+decline at 3:00pm until 4:00am the next day. The line graph represents user spending levels for each hour of the day. I measured the price range of purchased products and the time of day these purchases were made. User 
+spending peaks early in the day around 2:00am to 3:00am, 4:00am to 5:00am, and 6:00am to 7:00am. Spending is at its lowest around 7:00am to 10:00am. Around 11:00am spending steadily increases just before 3:00pm. There 
+is a final spike of spending around 10:00pm.
 
 <p align="center">
-<img src="https://github.com/ke177409/Customer-Purchase-Analysis/assets/118031032/d7b5615c-394f-41f0-90f0-c8b0622786ed"/>
+<img src="images/his_orders_day.png" width=330 height=330>
+
+<img src="images/hist_orders_hour.png" width=330 height=330>
+
+<img src="images/line_prices_orders_hour.png" width=330 height=330>
 </p>
 
+The stakeholders were interested to know which departments are the most popular. I measured the count of orders for each department and separated users based on number of dependents, age group, loyalty status, region, 
+and family status. Produce, dairy/eggs, and beverages were the most popular departments among all users regardless of these factors.
+
 <p align="center">
-<img src="https://github.com/ke177409/Customer-Purchase-Analysis/assets/118031032/3e3cb237-7564-4d01-8723-7bb4938025e5" />
+<img src="images/dept_parent_bar.png">
+
+<img src="images/dept_age_bar.png">
+
+<img src="images/dept_loyal_bar.png">
+
+<img src="images/dep_region_bar.png">
+
+<img src="images/dept_fam_bar.png">
+</p>
+
+Customer regions were defined as follows: 
+
+**Region 1**: Maine, New Hampshire, Vermont, Massachusetts, Rhode Island, Connecticut, New York, Pennsylvania, New Jersey
+
+**Region 2**: Wisconsin, Michigan, Illinois, Indiana, Ohio, North Dakota, South Dakota, Nebraska, Kansas, Minnesota, Iowa, Missouri
+
+**Region 3**: Delaware, Maryland, District of Columbia, Virginia, West Virginia, North Carolina, South Carolina, Georgia, Florida, Kentucky, Tennessee, Mississippi, Alabama, Oklahoma, Texas, Arkansas, Louisiana
+
+**Region 4**: Idaho, Montana, Wyoming, Nevada, Utah, Colorado, Arizona, New Mexico, Alaska, Washington, Oregon, California, Hawaii
+
+Users were assigned a loyalty status based on their maximum order count. The bar chart below measures the total count of users by loyalty status and region.  Most users were labelled as regular customers whose maximum 
+order count is 11 to 40 orders. A large population of these users were located in Region 3.
+
+<img src="images/r_loyal_bar.png"/>
+
+Loyal customers were those whose maximum order count is greater than 40. Most loyal customers were also low spenders (average item price is less than $10):
+
+<p align="center">
+<img src="images/crosstab_loyal_spend.png">
+</p>
+
+Married users make up the majority of users and also had the highest proportion of high spenders (average item price is $10 or more):
+<p align="center">
+<img src="images/crosstab_spending_family.png">
+</p>
+
+The box-and-whisker plot measures the spread of total income within each age group to determine which age group has the most spending power. The senior age group (ages 62 and older) had the highest total income and young users (ages 35 and younger) had the lowest. The bar chart shows the number of users by age group and dependent status. Middle-aged users with dependents made up most of the customer demographic.
+
+<p align="center">
+<img src="images/inc_allage_box.png" width=430 height=430/>
+<img src="images/parent_age_bar.png" width=430 height=430>
 </p>
 
 ## Recommendations & Findings
@@ -53,10 +124,7 @@ Below are a few of the key visuals included in this analysis:
 * Advertise low price-ranged products because low-spenders are the most loyal users.
 * Products advertised should include items from the most popular departments for all user groups and regions (produce, dairy/eggs, and beverage).
 * Majority of customer demographic includes middle-aged, married, parents.
-* Incorporate other variables to determine customer loyalty status.
+* Incorporate additonal measures to determine customer loyalty status such as average price and length of membership.
 
 ## Datasets
-* [Zip file to final dataset](https://drive.google.com/file/d/1hweDzLp0OC-tlFoZm_PBvp2gfH_xeU0v/view?usp=sharing)
-* “The Instacart Online Grocery Shopping Dataset 2017”
-  
-  Accessed from www.instacart.com/datasets/grocery-shopping-2017 via Kaggle on July 15, 2023
+* **The Instacart Online Grocery Shopping Dataset 2017** [Data set]. Accessed from www.instacart.com/datasets/grocery-shopping-2017 via Kaggle. https://drive.google.com/file/d/1hweDzLp0OC-tlFoZm_PBvp2gfH_xeU0v/view?usp=sharing

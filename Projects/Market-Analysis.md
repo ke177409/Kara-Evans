@@ -26,7 +26,7 @@ CareerFoundry’s Data Immersion curriculum and was evaluated with feedback by a
 ## Visualizations
 The stakeholders assume North America will continue to dominate the global market based on historical sales data. This line graph displays the number of video games sold per year from 1983 to 2016. North America, Europe, and Japan are the top selling regions and were included in this anaylsis. All regions saw a decline in sales beginning in 2009. North America and Europe sales converge in 2015 indicating a shift in the global market.
 
-<img src="https://github.com/ke177409/Kara-Evans/blob/main/Projects/images/Total_Sales.png"/>
+
 
 ## Recommendations & Findings
 * Europe makes up most of the global market over North America and Japan.

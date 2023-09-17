@@ -115,8 +115,8 @@ Married users make up the majority of users and also had the highest proportion 
 The box-and-whisker plot measures the spread of total income within each age group to determine which age group has the most spending power. The senior age group (ages 62 and older) had the highest total income and young users (ages 35 and younger) had the lowest. The bar chart shows the number of users by age group and dependent status. Middle-aged users with dependents made up most of the customer demographic.
 
 <p align="center">
-<img src="images/inc_allage_box.png" width=430 height=430/>
-<img src="images/parent_age_bar.png" width=430 height=430>
+<img src="images/inc_allage_box.png" width=400 height=400/>
+<img src="images/parent_age_bar.png" width=400 height=400>
 </p>
 
 ## Recommendations & Findings

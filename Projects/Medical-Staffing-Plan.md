@@ -49,7 +49,7 @@ I explored the proporitions of age groups in each state population based on the 
 
 This stacked bar chart shows the proportion of each vulnerable age group population in each state. Maine had the largest proportion and Utah had the lowest. 
 
-<img src="images/%25%20Vulnerable%20Ages.png"/>
+<img src="images/%25%20All%20Ages.png"/>
 
 The next two images represent influenza deaths for age groups 45 and older. This map shows the count of deaths and total population where California and New York are still the most affected.
 

@@ -55,7 +55,7 @@ In 2016, there was a different top-selling publisher in each region:
 * **North America**: Ubisoft
 * **Japan**: Square Enix
 
-<img src="https://github.com/ke177409/Kara-Evans/blob/main/Projects/images/Top_Publishers.png"/>
+<img src="images/Top_Publishers.png"/>
 
 
 ## Recommendations & Findings

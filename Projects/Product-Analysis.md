@@ -1,34 +1,91 @@
 # Product Analysis: Project Overview
-Evaluated historical data of movie rental company to provide insights prior to the launch of a new online streaming service. Findings include top-earning films, customer behvaior, and geographic sales data. Used SQL to organize, clean, filter, and join data to answer complex business questions. Created visuals with SQL results in Tableau.
+Evaluated movie rental company data to provide insights prior to the launch of a new online streaming service. Findings include geographical markets to promote company's brand, top-earning films, and identification of loyal customers. Used SQL to organize, clean, filter, and join data to understand customer behvaior and geographic sales data. Created visuals with SQL results in Tableau.
 
 ## Tools & Skills
 PostgreSQL
 * Filter, summarize, and clean data
 * Join tables within dataset using primary and foreign keys
-* Utilize subqueries and common table expressions for more complex queries
+* Utilize subqueries and common table expressions to perform more complex queries
 
 Tableau
 * Data Manipulation
 * Visualizations
 
 ## Purpose & Context
-I performed an exploratory analysis on multiple data sets using SQL, Tableau, and Excel to generate insights to answer key stakeholder questions. I was responsible for deciding on the project scope and final presentation format. This project was a part of 
-CareerFoundry’s Data Immersion curriculum and was evaluated with feedback by a tutor and mentor.
+I performed an exploratory analysis on multiple data sets using SQL, Tableau, and Excel to generate insights to answer key stakeholder questions. I was responsible for deciding on the project scope and final presentation 
+format. This project was a part of CareerFoundry’s Data Immersion curriculum and was evaluated with feedback by a tutor and mentor.
 
 ## Data Cleaning, Integration, & Transformation
-* Checked for duplicates and null values within each data table.
+* Corrected missing and incorrect values using insert commands.
+* Removed rows from data tables using delete commands.
+* Checked for duplicate values within each data table.
 * Checked for value format consistency within each column.
 * Performed inner joins to connect tables.
-* Wrote outer statement to generate new variables (i.e. "average_amount_paid" and "top_customer_count").
+* Wrote outer statements to generate new variables (i.e. "average_amount_paid" and "top_customer_count").
 
 ## Visualizations
-Below are a few of the key visuals included in this analysis:
+The average rental time was just under 5 days and the average rental rate was $2.98 per rental.
+
 <p align="center">
-<img src="https://github.com/ke177409/Product-Analysis/assets/118031032/cc8645e3-2c82-4aaa-a1dd-19541aeaa1cf" width="600" height="595">
+<img src="images/Rental%20Duration.png" width="300" height="500">
 
-<img src="https://github.com/ke177409/Product-Analysis/assets/118031032/eb6589fd-f029-49d5-9078-5d3114f023bc" width="600" height="400">
+<img src="images/Rental%20Rates.png" width="300" height="500">
+</p>
 
-<img src="https://github.com/ke177409/Product-Analysis/assets/118031032/86e4c4ba-3c4e-4e21-97f6-d2215eeedf3d" width="400" height="512"/>
+Rental identification numbers were used to count how often a film was rented. PG-13 films had the highest rental rates and had the highest count of rentals. These films generated the most revenue compared to 
+other films.
+
+<p align="center">
+<img src="images/Total%20Revenue%20%26%20Number%20of%20Rentals%20by%20Rating%20(2).png">
+</p>
+
+The highest earning film title was “Scalawag Duck”, rated NC-17. The lowest earning film titles were “Connection Microcosmos”, rated G, and  “Freedom Cleopatra”, rated PG-13. These results support the finding that PG-13 
+films were rented more frequently at a higher rental rate.
+<p align="center">
+<img src="images/Lowest%20Earning%20Film%20Titles%20and%20Rating.png"/>
+</p>
+
+Customer identification numbers were used to calculate the total amount of customers in each country around the world. 
+These results were narrowed down to the top 10 countries with the largest customer presence:
+1. India (60)
+2. China (53)
+3. USA (36)
+4. Japan (31)
+5. Mexico (30)
+6. Russia (28)
+7. Brazil (28)
+8. Philippines (20)
+9. Turkey (15)
+10. Indonesia (14)
+
+<img src="images/Top%2010%20countries.png" />
+
+Seven of the ten countries with the largest customer populations were in Asia. This includes India which had the most customers overall. Asia also had a significantly higher total revenue than other regions in the world.
+
+<p align="center">
+<img src="images/Map%20Revenue%20by%20Region.png" width="550" height="450">
+
+<img src="images/Bar%20Revenue%20by%20Region.png" width="370" height="500">
+</p>
+
+Customers located within the top ten countries were counted by city to determine if any cities held a high number of customers. Aurora, USA was found to have the most customers, however, the remaining cities only had one. These cities do not represent areas with a large customer base. Top customers were searched by total amount spent and total rentals regardless of city or country.
+
+<p align="center">
+<img src="images/Top%20Paying%20Customers%20%233.png"/>
+</p>
+
+Four customers were found on both lists:
+* Eleanor Hunt, Réunion
+* Karl Seal, USA
+* Marion Snyder, Brazil
+* Clara Shaw, Belarus
+
+These customers have a high lifetime value based on their spending and rental frequency. Two of the four customers were also based in the top 10 countries (USA & Brazil).
+
+<p align="center">
+<img src="images/Top%20Amount%20Paid.png" width="300" height="500">
+
+<img src="images/Top%20Rental%20Counts.png" width="300" height="500">
 </p>
 
 ## Recommendations & Findings
@@ -39,4 +96,4 @@ Below are a few of the key visuals included in this analysis:
 * Continually update film inventory based on customer demographics and behavior.
 
 ## Dataset
-[Rockbuster.tar file](https://github.com/ke177409/Product-Analysis/blob/main/Rockbuster.zip)
+*Rockbuster Stealth LLC* [Data Set]. CareerFoundry. https://github.com/ke177409/Product-Analysis/blob/main/Rockbuster.zip

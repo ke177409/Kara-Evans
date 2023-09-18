@@ -41,7 +41,7 @@ Online-based program concentrated on data analysis techniques using industry-sta
 ## Optometric Technician January 2023-present
 * Enter patient data into electronic practice management system.
 * Schedule appointments and assist with patient inqueries.
-* Search and interpret patient insurance plans.
+* Search and interpret patient insurance eligibilities.
 * Perform pre-examination testing on patients.
 
 # Interested?

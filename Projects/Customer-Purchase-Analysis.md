@@ -118,10 +118,10 @@ The box-and-whisker plot measures the spread of total income within each age gro
 </p>
 
 * Products advertised should include items from the most popular departments for all user groups and regions (produce, dairy/eggs, and beverage).
-* Majority of customer demographic includes middle-aged, married, parents. Married users had the highest proportion of high spenders whose average item price is $10 or more.
+* The majority of customers are middle-aged, married, parents. Married users had the highest proportion of high spenders whose average item price is $10 or more.
 <p align="center">
 <img src="images/crosstab_spending_family.png">
-<img src="images/parent_age_bar.png" width=400 height=400>
+<img src="images/parent_age_bar.png" width=395 height=395>
 </p>
 
 * Incorporate additonal measures to determine customer loyalty status such as average price and length of membership.

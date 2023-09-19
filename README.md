@@ -30,11 +30,11 @@ Online-based program concentrated on data analysis techniques using industry-sta
 
 ## Laboratory Technician | September 2015-November 2017
 * Efficiently processed a high-volume of patient samples in a team-oriented setting.
-* Applied effective decision making skills while troubleshooting sample-related issues.
+* Applied effective decision-making skills while troubleshooting sample-related issues.
 * Communicated with hospital staff regarding patient samples in a timely manner.
 
 ## Analyst | August 2014-September 2015
-* Analyzed test results using laboratory information management system.
+* Performed environmental analysis on industrial waste samples using laboratory information management system.
 * Monitored sample status in order to meet client-specific deadlines.
 
 # Other Employment

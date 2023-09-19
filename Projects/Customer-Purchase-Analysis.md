@@ -104,29 +104,26 @@ order count is 11 to 40 orders. A large population of these users were located i
 
 <img src="images/r_loyal_bar.png"/>
 
-Loyal customers were those whose maximum order count is greater than 40. Most loyal customers were also low spenders (average item price is less than $10):
-
-<p align="center">
-<img src="images/crosstab_loyal_spend.png">
-</p>
-
-Married users make up the majority of users and also had the highest proportion of high spenders (average item price is $10 or more):
-<p align="center">
-<img src="images/crosstab_spending_family.png">
-</p>
-
 The box-and-whisker plot measures the spread of total income within each age group to determine which age group has the most spending power. The senior age group (ages 62 and older) had the highest total income and young users (ages 35 and younger) had the lowest. The bar chart shows the number of users by age group and dependent status. Middle-aged users with dependents made up most of the customer demographic.
 
 <p align="center">
 <img src="images/inc_allage_box.png" width=400 height=400/>
-<img src="images/parent_age_bar.png" width=400 height=400>
 </p>
 
 ## Recommendations & Findings
 * Increase advertising during peak hours (10am-11am) on the slowest days of the week (Tuesdays and Wednesdays).
-* Advertise low price-ranged products because low-spenders are the most loyal users.
+* Advertise low price-ranged products because low-spenders are the most loyal users. Loyal customers were those whose maximum order count is greater than 40. Low spenders are those whose average item price is less than $10.
+<p align="center">
+<img src="images/crosstab_loyal_spend.png">
+</p>
+
 * Products advertised should include items from the most popular departments for all user groups and regions (produce, dairy/eggs, and beverage).
-* Majority of customer demographic includes middle-aged, married, parents.
+* Majority of customer demographic includes middle-aged, married, parents. Married users had the highest proportion of high spenders whose average item price is $10 or more.
+<p align="center">
+<img src="images/crosstab_spending_family.png">
+<img src="images/parent_age_bar.png" width=400 height=400>
+</p>
+
 * Incorporate additonal measures to determine customer loyalty status such as average price and length of membership.
 
 ## Datasets

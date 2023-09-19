@@ -28,7 +28,7 @@ CareerFoundry’s Data Immersion curriculum and was evaluated with feedback by a
 
 This analysis measured the three highest selling regions (North America, Europe, and Japan) in years 1983 to 2016. These years were chosen because data was available for all three regions. 
 
-I created a line graph of total units sold to determine which region had the highest number of sales. Historically, North America has dominated the global market for the longest period of time. The stakeholders assume 
+I created a line graph of total units sold to determine which region had the highest number of sales. Historically, North America has dominated the global market for the longest period. The stakeholders assume 
 that North America will continue to hold the largest position in the global market. 
 
 Other observations include a decline in sales beginning in 2009 and a convergance of sales for North America and Europe in 2015.
@@ -64,7 +64,7 @@ In 2016, there was a different top-selling publisher in each region:
 * Perform further analysis to address competing publishing companies in each region.
 
 ## The Learning Experience
-Data cleansing was the biggest challenge in this project mostly due to format differences in the video game titles. The line graph displaying the proportion of sales over time was generated with the help of my mentor. This visual challenged my original assumptions and my first line graph showing total count of sales 
+Data cleansing was the biggest challenge in this project, mostly due to format differences in the video game titles. The line graph displaying the proportion of sales over time was generated with the help of my mentor. This visual challenged my original assumptions and my first line graph showing total count of sales 
 over time. This prompted me to look deeper into the data to gain a more accurate understanding of regional market behavior.
 
 ## Dataset

@@ -57,12 +57,15 @@ In 2016, there was a different top-selling publisher in each region:
 
 <img src="images/Top_Publishers.png"/>
 
-
 ## Recommendations & Findings
 * Europe makes up most of the global market over North America and Japan.
 * Develop more Shooter games to satisfy the larger European and North American markets.
 * A secondary focus on Action genres to satisfy all three regions.
 * Perform further analysis to address competing publishing companies in each region.
+
+## The Learning Experience
+Data cleansing was the biggest challenge in this project mostly due to format differences in the video game titles. The line graph displaying the proportion of sales over time was generated with the help of my mentor. This visual challenged my original assumptions and my first line graph showing total count of sales 
+over time. This prompted me to look deeper into the data to gain a more accurate understanding of regional market behavior.
 
 ## Dataset
 *Video game sales* [Data set]. VGChartz. https://github.com/ke177409/Market-Analysis/blob/main/Video%20game%20sales%20data%20set.xlsx

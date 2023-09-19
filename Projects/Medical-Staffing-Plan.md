@@ -71,7 +71,7 @@ D.C. is the most understaffed, but influenza death counts were not available in 
 * The state of Florida needs number of providers and influenza patients data to determine staff-to-patient ratios.
 * D.C. needs to need included in data collection for influenza death counts to determine mortality rates.
 * Measure other factors that may affect influenza rates such as access to vaccinations and education on influenza prevention.
-* 
+
 ## The Learning Experience
 My biggest challenge was learning to create visualizations in Tableau that speak for themselves. I researched tutorials and troubleshooting strategies to achieve 
 my intended results. The weighted average mortality rate was one of my key variables in this analysis and was developed with the help of my mentor. I intend to use 

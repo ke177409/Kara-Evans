@@ -125,6 +125,9 @@ The box-and-whisker plot measures the spread of total income within each age gro
 </p>
 
 * Incorporate additonal measures to determine customer loyalty status such as average price and length of membership.
+ 
+## The Learning Experience
+Learning a new programming language and applying it was a big learning curve during this project. I researched troubleshooting methods and consulted my mentor to understand how Python works in order to achieve my desired results. Researching Matplotlib and Seaborn libraries to understand their syntaxes helped to modify my visualizations. Writing neat and well-documented Python scripts, creating new variables, and generating visuals became easier over time as I continued to practice and learned how to resolve the errors in my code.
 
 ## Datasets
 * **The Instacart Online Grocery Shopping Dataset 2017** [Data set]. Accessed from www.instacart.com/datasets/grocery-shopping-2017 via Kaggle.

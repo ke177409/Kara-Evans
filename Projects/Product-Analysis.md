@@ -1,7 +1,7 @@
 # Product Analysis: Project Overview
-Evaluated movie rental company data to provide insights prior to the launch of a new online streaming service. Findings include geographical markets to promote company's brand, top-earning films, and identification of loyal customers. Used SQL to organize, clean, filter, and join data to understand customer behvaior and geographic sales data. Created visuals with SQL results in Tableau.
+Evaluated movie rental company data to provide insights prior to the launch of a new online streaming service. Findings include geographical markets to promote company's brand, top-earning films, and identification of loyal customers. Used SQL to organize, clean, filter, and join data to understand customer behavior and geographic sales data. Created visuals with SQL results in Tableau.
 
-### [Tableau Dashboard](https://public.tableau.com/views/RockbusterFilmsCustomers/RentalDuration?:language=en-US&:display_count=n&:origin=viz_share_link)
+### [Tableau Visuals](https://public.tableau.com/views/RockbusterFilmsCustomers/RentalDuration?:language=en-US&:display_count=n&:origin=viz_share_link)
 
 ## Tools & Skills
 PostgreSQL

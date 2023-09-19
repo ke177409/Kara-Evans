@@ -1,5 +1,5 @@
 # Product Analysis: Project Overview
-Evaluated movie rental company data to provide insights prior to the launch of a new online streaming service. Findings include geographical markets to promote company's brand, top-earning films, and identification of loyal customers. Used SQL to organize, clean, filter, and join data to understand customer behavior and geographic sales data. Created visuals with SQL results in Tableau.
+Evaluated movie rental company data to provide insights prior to the launch of a new online streaming service. Findings include geographical markets to promote the company's brand, top-earning films, and identification of loyal customers. Used SQL to organize, clean, filter, and join data to understand customer behavior and geographic sales data. Created visuals with SQL results in Tableau.
 
 ### [Tableau Visuals](https://public.tableau.com/views/RockbusterFilmsCustomers/RentalDuration?:language=en-US&:display_count=n&:origin=viz_share_link)
 
@@ -23,7 +23,7 @@ format. This project was a part of CareerFoundry’s Data Immersion curriculum a
 * Checked for duplicate values within each data table.
 * Checked for value format consistency within each column.
 * Performed inner joins to connect tables.
-* Wrote outer statements to generate new variables (i.e. "average_amount_paid" and "top_customer_count").
+* Wrote outer statements to generate new variables (i.e., "average_amount_paid" and "top_customer_count").
 
 ## Visualizations
 The average rental time was just under 5 days and the average rental rate was $2.98 per rental.
@@ -41,13 +41,13 @@ other films.
 <img src="images/Total%20Revenue%20%26%20Number%20of%20Rentals%20by%20Rating%20(2).png">
 </p>
 
-The highest earning film title was “Scalawag Duck”, rated NC-17. The lowest earning film titles were “Connection Microcosmos”, rated G, and  “Freedom Cleopatra”, rated PG-13. These results support the finding that PG-13 
+The highest earning film title was “Scalawag Duck”, rated NC-17. The lowest earning film titles were “Connection Microcosmos”, rated G, and “Freedom Cleopatra”, rated PG-13. These results support the finding that PG-13 
 films were rented more frequently at a higher rental rate.
 <p align="center">
 <img src="images/Lowest%20Earning%20Film%20Titles%20and%20Rating.png"/>
 </p>
 
-Customer identification numbers were used to calculate the total amount of customers in each country around the world. 
+Customer identification numbers were used to calculate the total number of customers in each country around the world. 
 These results were narrowed down to the top 10 countries with the largest customer presence:
 1. India (60)
 2. China (53)
@@ -93,7 +93,7 @@ These customers have a high lifetime value based on their spending and rental fr
 ## Recommendations & Findings
 * Focus brand in Asian markets where largest customer base and revenue streams are located.
 * Films rated PG-13 are the most popular and generate the largest total revenue.
-* Top customers were discovered based on rental frequency and total spending. Length of membership should also be considered when measuring for customer loyalty.
+* Top customers were discovered based on rental frequency and total spending. Length of membership should also be considered when measuring customer loyalty.
 * Include additional data measures (customer age, language, movie genres, etc.) to understand each customer segment.
 * Continually update film inventory based on customer demographics and behavior.
 

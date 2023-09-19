@@ -57,18 +57,21 @@ I began by creating visuals that would help me gain an understanding of customer
 
 6 = Friday
 
-The first histogram measures the total number of orders for all users for each day of the week. Saturday (day 0) and Sunday (day 1) were the busisest days. Tuesday (day 3) and Wednesday (day 4) were the slowest days. 
-The second histogram measures the total number of orders for each hour of the day for all users and all days of the week. 10am and 11am were the most popular times among all users. I also observed that orders begin to 
-decline at 3:00pm until 4:00am the next day. The line graph represents user spending levels for each hour of the day. I measured the price range of purchased products and the time of day these purchases were made. User 
-spending peaks early in the day around 2:00am to 3:00am, 4:00am to 5:00am, and 6:00am to 7:00am. Spending is at its lowest around 7:00am to 10:00am. Around 11:00am spending steadily increases just before 3:00pm. There 
-is a final spike of spending around 10:00pm.
+The first histogram measures the total number of orders for all users for each day of the week. Saturday (day 0) and Sunday (day 1) were the busisest days. 
+Tuesday (day 3) and Wednesday (day 4) were the slowest days.  
+The second histogram measures the total number of orders for each hour of the day for all users and all days of the week. 10am and 11am were the most popular 
+times among all users. I also observed that orders begin to 
+decline at 3:00pm until 4:00am the next day. The line graph represents user spending levels for each hour of the day. The y-axis represents the average dollar 
+amount of purchased products and the time of day these purchases were made. User spending peaks early in the day around 2:00am to 3:00am, 4:00am to 5:00am, and 
+6:00am to 7:00am. Spending is at its lowest around 7:00am to 10:00am. Around 11:00am spending steadily increases just before 3:00pm. There is a final spike of 
+spending around 10:00pm.
 
 <p align="center">
-<img src="images/his_orders_day.png" width=330 height=330>
+<img src="images/his_orders_day.png" width=370 height=330>
 
-<img src="images/hist_orders_hour.png" width=330 height=330>
+<img src="images/hist_orders_hour.png" width=370 height=330>
 
-<img src="images/line_prices_orders_hour.png" width=330 height=330>
+<img src="images/line_prices_orders_hour.png" width=370 height=330>
 </p>
 
 The stakeholders were interested to know which departments are the most popular. I measured the count of orders for each department and separated users based on number of dependents, age group, loyalty status, region, 

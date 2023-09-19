@@ -43,7 +43,7 @@ infections. States with a darker red shading represent those with higher counts 
 
 <img src="images/Map%20U.S.%20Deaths%20%26%20Pop..png" />
 
-I explored the proporitions of age groups in each state population based on the assumption that certain age groups are more susceptible to influenza than others. This line chart shows the sum of influenza deaths for all age groups as well as the seasonality of these infections. January has the highest number of deaths and August has the lowest number of deaths. Age groups 45 years and older also had the highest rates of deaths and were labelled as vulnerable populations in this analysis.
+I explored the proportions of age groups in each state population based on the assumption that certain age groups are more susceptible to influenza than others. This line chart shows the sum of influenza deaths for all age groups as well as the seasonality of these infections. January has the highest number of deaths and August has the lowest number of deaths. Age groups 45 years and older also had the highest rates of deaths and were labelled as vulnerable populations in this analysis.
 
 <img src="images/Line%20Deaths%20by%20Month.png"/>
 
@@ -59,7 +59,7 @@ However, the second map uses a more precise measure called the weighted average 
 
 <img src="images/Map%20WA%20Mort.%20Rate%2045-85%2B%20(2)%20(1).png"/>
 
-This bar chart shows the staff-to-influenza patient ratios for each state. Montana and New Hampshire are over staffed and have a low to low-moderate mortality rate, respectively. 
+This bar chart shows the staff-to-influenza patient ratios for each state. Montana and New Hampshire are overstaffed and have a low to low-moderate mortality rate, respectively. 
 D.C. is the most understaffed, but influenza death counts were not available in the data set used in this analysis. Louisiana and Georgia have low percentages of staff and their mortality rates are moderate-high and high, respectively. I concluded that states with more medical staff than influenza patients also tend to have lower mortality rates. It is the intention of this project to boost the number of medical staff in these states enough to see a noticeable decline in mortalities.
 
 <img src="images/Staff%20to%20Patient%20ratio%20(1).png"/>
@@ -68,7 +68,7 @@ D.C. is the most understaffed, but influenza death counts were not available in 
 * The staffing agency should begin allocating medical staff prior to January each year when influenza death counts are highest.
 * The weighted average mortality rate and staff-to-patient ratio should be used to determine how many staff members need to be sent to each state.
 * Incorporate real-time updates for this dashboard to address staffing needs more precisely.
-* The state of Florida needs number of providers and influenza patients data to determine staff-to-patient ratios.
+* The state of Florida needs number of providers and influenza patient data to determine staff-to-patient ratios.
 * D.C. needs to need included in data collection for influenza death counts to determine mortality rates.
 * Measure other factors that may affect influenza rates such as access to vaccinations and education on influenza prevention.
 

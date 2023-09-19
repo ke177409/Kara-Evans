@@ -57,7 +57,7 @@ I began by creating visuals that would help me gain an understanding of customer
 
 6 = Friday
 
-The first histogram measures the total number of orders for all users for each day of the week. Saturday (day 0) and Sunday (day 1) were the busisest days. 
+The first histogram measures the total number of orders for all users for each day of the week. Saturday (day 0) and Sunday (day 1) were the busiest days. 
 Tuesday (day 3) and Wednesday (day 4) were the slowest days.  
 The second histogram measures the total number of orders for each hour of the day for all users and all days of the week. 10am and 11am were the most popular 
 times among all users. I also observed that orders begin to 
@@ -118,16 +118,16 @@ The box-and-whisker plot measures the spread of total income within each age gro
 </p>
 
 * Products advertised should include items from the most popular departments for all user groups and regions (produce, dairy/eggs, and beverage).
-* The majority of customers are middle-aged, married, parents. Married users had the highest proportion of high spenders whose average item price is $10 or more.
+* Most customers are middle-aged, married, parents. Married users had the highest proportion of high spenders whose average item price is $10 or more.
 <p align="center">
 <img src="images/crosstab_spending_family.png">
 <img src="images/parent_age_bar.png" width=395 height=395>
 </p>
 
-* Incorporate additonal measures to determine customer loyalty status such as average price and length of membership.
+* Incorporate additional measures to determine customer loyalty status such as average price and length of membership.
  
 ## The Learning Experience
-Learning a new programming language and applying it was a big learning curve during this project. I researched troubleshooting methods and consulted my mentor to understand how Python works in order to achieve my desired results. Researching Matplotlib and Seaborn libraries to understand their syntaxes helped to modify my visualizations. Writing neat and well-documented Python scripts, creating new variables, and generating visuals became easier over time as I continued to practice and learned how to resolve the errors in my code.
+Learning a new programming language and applying it was a big learning curve during this project. I researched troubleshooting methods and consulted my mentor to understand how Python works to achieve my desired results. Researching Matplotlib and Seaborn libraries to understand their syntaxes helped to modify my visualizations. Writing neat and well-documented Python scripts, creating new variables, and generating visuals became easier over time as I continued to practice and learned how to resolve the errors in my code.
 
 ## Datasets
 * **The Instacart Online Grocery Shopping Dataset 2017** [Data set]. Accessed from www.instacart.com/datasets/grocery-shopping-2017 via Kaggle.

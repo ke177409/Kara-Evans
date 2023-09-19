@@ -11,7 +11,7 @@ My biggest motivation is helping others, even if it's just locating that missing
 
 **I'm located in Cleveland, Ohio seeking a full-time position and open to hybrid or remote opportunities.**
 
-### To learn more about me, check out my [resume](https://github.com/ke177409/Kara-Evans/blob/main/images/Evans.Kara.Resume.pdf)! 
+### To learn more about me, download my [resume](https://github.com/ke177409/Kara-Evans/blob/main/resume/Evans.Kara.Resume.pdf?raw=true)! 
 
 # Education
 ## Data Analytics Certificate | CareerFoundry

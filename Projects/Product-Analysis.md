@@ -97,5 +97,9 @@ These customers have a high lifetime value based on their spending and rental fr
 * Include additional data measures (customer age, language, movie genres, etc.) to understand each customer segment.
 * Continually update film inventory based on customer demographics and behavior.
 
+## The Learning Experience
+Learning and using SQL was the biggest challenge in this project. I overcame this challenge by researching different SQL queries, studying the syntax, and practicing with my mentor. Once I understood how to apply common table expressions and subqueries, I was able to develop more complex variables that provided 
+useful information in my analysis.
+
 ## Dataset
 *Rockbuster Stealth LLC* [Data Set]. CareerFoundry. https://github.com/ke177409/Product-Analysis/blob/main/Rockbuster.zip

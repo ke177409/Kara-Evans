@@ -45,11 +45,11 @@ In 2016, Europe held the largest portion of global sales and surpassed North Ame
 
 Shooter genres were the most popular in Europe and North America. Action genres were popular in all three regions.
 <p align="center">
-<img src="images/Europe_Sales.png" width=330, height=230> 
+<img src="images/Europe_Sales.png" width="330" height="230"> 
   
-<img src="images/North_America_Sales.png" width=330, height=230>  
+<img src="images/North_America_Sales.png" width="330" height="230">  
 
-<img src="images/Japan_Sales.png" width=330, height=230>
+<img src="images/Japan_Sales.png" width="330" height="230">
 </p>
 
 In 2016, there was a different top-selling publisher in each region:

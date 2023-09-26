@@ -1,26 +1,24 @@
 # Medical Staffing Plan: Project Overview
 Hospitals and clinics in the U.S. experience a surge of incoming patients during influenza seasons which puts a strain on hospital staff as well as patients seeking treatment. I created a plan to help a staffing agency distribute medical staff throughout the United States during influenza seasons.
-I performed data cleansing and statistical analyses on 2010 to 2017 data obtained from the United States Census and Centers for Disease Control and Prevention (CDC) using Excel and Tableau.
+I performed data cleansing and statistical analyses on 2010 to 2017 data obtained from the United States Census and Centers for Disease Control and Prevention (CDC) using Tableau.
 An interactive dashboard was created to present visualizations using Tableau.
 
 ### [YouTube Project Walk-Through](https://youtu.be/vcfuhCl_TEA)
 ### [Tableau Dashboard](https://public.tableau.com/shared/G7BRJWCG4?:display_count=n&:origin=viz_share_link)
 
 ## Tools & Skills
-Excel
-* Data cleansing, transformation, and integration
-* Statistical analysis
-  
 Tableau
 * Data manipulation
 * Spatial analysis
 * Visualizations
+* Data cleansing, transformation, and integration
+* Statistical analysis
 
 ## Purpose & Context
-I performed exploratory and statistical analyses on multiple data sets using Excel and Tableau. This project was a part of CareerFoundry’s Data Immersion curriculum and was evaluated with feedback by a tutor and mentor. I was responsible for deciding on the project scope and final presentation format.
+I performed exploratory and statistical analyses on multiple data sets. This project was a part of CareerFoundry’s Data Immersion curriculum and was evaluated with feedback by a tutor and mentor. I was responsible for deciding on the project scope and final presentation format.
 
 ## Data Cleaning, Integration, & Transformation
-* Removed duplicates using concatenate and COUNTIF functions in Excel to retain unique combinations of County/Year/Population in the U.S. Census dataset.
+* Removed duplicates to retain unique combinations of County/Year/Population in the U.S. Census dataset.
 * Imputed missing state values in "Influenza Death" dataset by using other identifying variables.
 * Removed columns and rows with missing or irrelevant data:
   * All age groups and the state of Florida in "ILI visits" dataset
@@ -30,8 +28,7 @@ I performed exploratory and statistical analyses on multiple data sets using Exc
   * State abbreviations to their full names
 * Corrected year "20133" to "2013" in "Influenza Death" dataset.
 * Restructured age groups into a consistent format to allow for dataset integration.
-* Integrated datasets using VLOOKUP function in Excel.
-* Created a new variable that normalizes mortality rates for each age group.
+* Integrated datasets to create a new variable that normalizes mortality rates for each age group.
 
 ## Visualizations
 This line graph displays annual totals of influenza infections based on reported influenza test results. This confirms that there is an upward trend of influenza patients in the U.S. each year. 

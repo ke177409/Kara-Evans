@@ -1,6 +1,6 @@
 # [Medical Staffing Plan: Project Overview](https://ke177409.github.io/Kara-Evans/Projects/Medical-Staffing-Plan)
-Hospitals and clinics in the U.S. experience a surge of incoming patients during influenza seasons which puts a strain on hospital staff as well as patients seeking treatment. I created a plan to help a staffing agency distribute medical staff throughout the United States during influenza seasons. I performed data 
-cleansing and statistical analyses on 2010 to 2017 data obtained from the United States Census and Centers for Disease Control and Prevention (CDC) using Excel and Tableau. An interactive dashboard was created to present visualizations using Tableau.
+Hospitals and clinics in the U.S. experience a surge of incoming patients during influenza seasons which puts a strain on hospital staff as well as patients seeking treatment. I created a plan to help a staffing agency distribute medical staff throughout the United States during influenza seasons.
+I performed data cleansing and statistical analyses on 2010 to 2017 data obtained from the United States Census and Centers for Disease Control and Prevention (CDC) using Tableau. An interactive dashboard was created to present visualizations using Tableau.
 
 ![](/images/map_mortality.png)
 

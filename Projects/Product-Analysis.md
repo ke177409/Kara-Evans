@@ -14,7 +14,7 @@ Tableau
 * Visualizations
 
 ## Purpose & Context
-I performed an exploratory analysis on multiple data sets using SQL, Tableau, and Excel to generate insights to answer key stakeholder questions. I was responsible for deciding on the project scope and final presentation 
+I performed an exploratory analysis on multiple data sets using SQL and Tableau to generate insights to answer key stakeholder questions. I was responsible for deciding on the project scope and final presentation 
 format. This project was a part of CareerFoundry’s Data Immersion curriculum and was evaluated with feedback by a tutor and mentor.
 
 ## Data Cleaning, Integration, & Transformation

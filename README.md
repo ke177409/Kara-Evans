@@ -7,7 +7,7 @@ Over the past eight years, I have worked mostly in biomedical laboratories, wher
 
 My professional experience has driven my desire to continue working in the healthcare industry. I'm a self-starter and plan to further my data skills so that I can analyze patient data and improve software systems that impact the patient experience.
 
-My biggest motivation is helping others, even if it's just locating that missing document or resolving a minor technical problem. I'm seeking to enhance my abilities to support my future team members and also improve the lives of the people they serve.
+My biggest motivation is helping others, even if it's just locating that missing document or resolving a minor technical problem. I'm seeking to enhance my abilities to support my future team members and improve the lives of the people they serve.
 
 **I'm located in Cleveland, Ohio seeking a full-time position and open to hybrid or remote opportunities.**
 

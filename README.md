@@ -15,7 +15,7 @@ My biggest motivation is helping others, even if it's just locating that missing
 
 # Education
 ## Data Analytics Certificate | CareerFoundry
-*Expected Completion: November 2023*
+*Expected Completion: December 2023*
 
 Online-based program concentrated on data analysis techniques using industry-standard tools. Topics include data quality measures & transformation, statistical hypothesis testing, and visualizations.
 
@@ -24,9 +24,13 @@ Online-based program concentrated on data analysis techniques using industry-sta
 
 # Professional History 
 ## Senior Laboratory Technologist | November 2017-December 2022
+* Main point of contact for equipment and daily workflow issues. 
+* Managed departmental investigative reports by tracking report deadlines, performing follow-up investigations, and reviewing reports submitted by team members.
 * Performed investigations using critical thinking and root cause analysis techniques.
 * Developed and improved procedures and job aids to enhance new-hire training material and reduce recurring workflow errors.
 * Led and collaborated with small group to assess and present laboratory data to help shape company's strategic goals.
+* Designated trainer for laboratory staff. Performed initial training, final training sign-off, and competency assessments.
+* Assigned weekly tasks to laboratory staff.
 
 ## Laboratory Technician | September 2015-November 2017
 * Efficiently processed a high-volume of patient samples in a team-oriented setting.
@@ -39,14 +43,14 @@ Online-based program concentrated on data analysis techniques using industry-sta
 
 # Other Employment
 ## Optometric Technician | January 2023-present
-* Enter patient data into electronic practice management system.
-* Schedule appointments and assist with patient inquiries.
-* Search and interpret patient insurance eligibilities.
+* Record patient data in electronic health record system.
+* Communicate with insurance companies to obtain patient eligibility information.
 * Perform pre-examination testing on patients.
+* Schedule appointments and assist with patient inquiries.
 
 # Interested?
 ## Send e-mails to **kara.e177409 at gmail dot com**
 ## Message and connect with me on [LinkedIn](https://www.linkedin.com/in/kara-m-evans/)!
 
 ### Meet the Team (Ziggy & Roo): 
-<img src="images/portfolio2.jpg" width=230 height=250/>
+<img src="images/portfolio2.jpg" width=270 height=290/>

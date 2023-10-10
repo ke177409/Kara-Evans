@@ -3,7 +3,7 @@
 # About Me 
 Hi there! 👋 My name is Kara. I'm a **data analyst** with an interest in exploring science-related topics and troubleshooting tough problems. I'm a creative thinker, which I believe is a result of being a left-handed person living in a right-handed world. I like to develop my own solutions and go against the "norm" because the best answer usually isn't the obvious answer.
 
-Over the past eight years, I have worked mostly in biomedical laboratories, where I handled patient data, interpreted results, and performed investigations. I decided to lean into the analytical side of my science background with an education in data analytics to improve my investigative abilities. During this process I have bolstered my analytical skills with **statistical analyses** and **machine learning** methods using **SQL**, **Python**, and **Tableau**.
+Over the past nine years, I have worked mostly in biomedical laboratories, where I handled patient data, interpreted results, and performed investigations. I decided to lean into the analytical side of my science background with an education in data analytics to improve my investigative abilities. During this process I have bolstered my analytical skills with **statistical analyses** and **machine learning** methods using **SQL**, **Python**, and **Tableau**.
 
 My professional experience has driven my desire to continue working in the healthcare industry. I'm a self-starter and plan to further my data skills so that I can analyze patient data and improve software systems that impact the patient experience.
 

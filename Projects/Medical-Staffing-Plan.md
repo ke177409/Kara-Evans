@@ -6,6 +6,12 @@ An interactive dashboard was created to present visualizations using Tableau.
 ### [YouTube Project Walk-Through](https://youtu.be/vcfuhCl_TEA)
 ### [Tableau Dashboard](https://public.tableau.com/shared/G7BRJWCG4?:display_count=n&:origin=viz_share_link)
 
+This repository contains the following:
+* Images folder containing project visualizations.
+* Mp4 file of the Project Walk-Through.
+* Interim report describing hypothesis testing, data limitations, and data sources.
+* Excel file containing final data set.
+
 ## Tools & Skills
 Tableau
 * Data manipulation

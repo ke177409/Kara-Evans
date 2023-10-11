@@ -2,6 +2,11 @@
 Evaluated historical international video game sales data to identify trends in game genre popularity, sales figures for different geographic regions, and market competitors. Findings include regional sales trends, 
 proportion of regional sales to global sales, and top-selling video game publishers. Used Excel to filter, sort, and clean data. Generated PivotTables to create new variables and visualizations.
 
+This repository contains the following:
+* Images folder containing project visualizations.
+* Final presentatinon in PowerPoint format.
+* Project data set.
+
 ## Tools & Skills
 Excel
 * Data quality checks

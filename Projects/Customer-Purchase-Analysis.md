@@ -1,6 +1,11 @@
 # Customer Purchase Analysis: Project Overview
 Evaluated online grocery service customer data to provide insights to sales and marketing teams. Findings include ideal time periods for advertising, popular products, and customer demographics. Prepared data for exploratory analysis by merging data frames and generating new variables in Python. Created visualizations in Python to illustrate relationships between variables.
 
+This repository contains the following:
+* Folder containing Python scripts in Jupyter Notebook.
+* Images folder containing project visualizations.
+* Excel file of file report submitted to client.
+
 ## Tools & Skills
 Python Version: 3.11
 

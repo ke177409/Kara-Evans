@@ -85,9 +85,9 @@ Four customers were found on both lists:
 These customers have a high lifetime value based on their spending and rental frequency. Two of the four customers were also based in the top 10 countries (USA & Brazil).
 
 <p align="center">
-<img src="images/Top%20Amount%20Paid.png" width="300" height="500">
+<img src="images/Top%20Amount%20Paid.png" width="500" height="500">
 
-<img src="images/Top%20Rental%20Counts.png" width="300" height="500">
+<img src="images/Top%20Rental%20Counts.png" width="500" height="500">
 </p>
 
 ## Recommendations & Findings

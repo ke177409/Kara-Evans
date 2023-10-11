@@ -3,16 +3,6 @@ Evaluated movie rental company data to provide insights prior to the launch of a
 
 ### [Tableau Visuals](https://public.tableau.com/views/RockbusterFilmsCustomers/RentalDuration?:language=en-US&:display_count=n&:origin=viz_share_link)
 
-This repository contains the following:
-* Images folder containing project visualizations.
-* Entity Relationship Diagram illustrating relationships between data sources in database.
-* Data dictionary describing primary, foreign, and unique key values in database.
-* Final presentation in PowerPoint format.
-* Project data set.
-* SQL code for a common table expresion that finds the average amount paid by the top 5 customers.
-* SQL code using multiple inner joins to find the top 5 paying customers from countries with the highest number of customers.
-* SQL code using a subquery to find the average amount paid by the top 5 customers.
-
 ## Tools & Skills
 PostgreSQL
 * Filter, summarize, and clean data

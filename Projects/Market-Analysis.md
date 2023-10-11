@@ -5,7 +5,8 @@ proportion of regional sales to global sales, and top-selling video game publish
 ## Tools & Skills
 Excel
 * Data quality checks
-* Descriptive and exploratory analyses
+* Grouping and summarizing data
+* Descriptive analysis
 * PivotTables
   
 Data Storytelling

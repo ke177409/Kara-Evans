@@ -4,7 +4,7 @@ Evaluated online grocery service customer data to provide insights to sales and 
 ## Tools & Skills
 Python Version: 3.11
 
-Packages: pandas, numpy, matplotlib, seaborn, scipy, pickle
+Packages: pandas, NumPy, Matplotlib, seaborn, SciPy, pickle
 * Data wrangling and merging
 * Derive new variables using if- and for-loops
 * Group and aggregate data

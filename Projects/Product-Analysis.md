@@ -92,9 +92,9 @@ These customers have a high lifetime value based on their spending and rental fr
 </p>
 
 ## Recommendations & Findings
-* Focus brand in Asian markets where largest customer base and revenue streams are located.
+* Promote company's brand in Asian markets where the largest customer base and revenue streams are located.
 * Films rated PG-13 are the most popular and generate the largest total revenue.
-* Top customers were discovered based on rental frequency and total spending. Length of membership should also be considered when measuring customer loyalty.
+* Top customers were discovered based on rental frequency and total spending. Other factors, such as length of membership, should be considered when measuring customer loyalty.
 * Include additional data measures (customer age, language, movie genres, etc.) to understand each customer segment.
 * Continually update film inventory based on customer demographics and behavior.
 

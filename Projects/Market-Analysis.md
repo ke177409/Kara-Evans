@@ -1,6 +1,5 @@
 # Market Analysis: Project Overview
-Evaluated historical international video game sales data to identify trends in game genre popularity, sales figures for different geographic regions, and market competitors. Findings include regional sales trends, 
-proportion of regional sales to global sales, and top-selling video game publishers. Used Excel to filter, sort, and clean data. Generated PivotTables to create new variables and visualizations.
+Evaluated historical international video game sales data trends for video game company. Findings include game genre popularity, sales figures for different geographic regions, and market competitors. Used Excel to filter, sort, and clean data. Generated PivotTables to create new variables and visualizations.
 
 ## Tools & Skills
 Excel

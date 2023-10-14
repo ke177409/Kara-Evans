@@ -40,7 +40,7 @@ This line graph displays annual totals of influenza infections based on reported
 
 <img src="images/Line%20Influenza%20Patients.png"/>
 
-Spatial analysis was crucial for this project’s goal. With the use of an intuitive color gradient, I created a map of the United States that draws the viewer’s eyes to areas most affected by influenza 
+Spatial analysis was crucial for this project’s goal. With the use of an intuitive color gradient, I created a density map of the United States that draws the viewer’s eyes to areas most affected by influenza 
 infections. States with a darker red shading represent those with higher counts of influenza deaths for all age groups. Large and darker shaded dots within each state represent larger total population sizes. California and Texas have the largest population sizes. New York and California have the highest counts of influenza deaths. 
 
 <img src="images/Map%20U.S.%20Deaths%20%26%20Pop..png" />

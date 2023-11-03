@@ -20,6 +20,7 @@ My primary motivation is assisting others, whether it be in locating a missing d
 An internet-based program focusing on the application of data analysis techniques using industry-standard tools. The curriculum encompasses essential topics such as evaluating data quality and transformation, statistical hypothesis testing, and data visualizations.
 
 ## Bachelor of Science, Biological Sciences | Ohio University
+## Certificate in Environmental Studies | Ohio University
 *Graduated 2014*
 
 # Professional History 

@@ -1,5 +1,7 @@
 # Market Analysis: Project Overview
-Evaluated historical international video game sales data trends for video game company. Findings include game genre popularity, sales figures for different geographic regions, and market competitors. Used Excel to filter, sort, and clean data. Generated PivotTables to create new variables and visualizations.
+Conducted an evaluation of historical international video game sales data trends for a video game company. The analysis revealed significant insights, including the popularity of different game genres, sales performance across various geographic regions, and an assessment of market competitors.
+
+In this analysis, Microsoft Excel was extensively utilized for tasks such as data filtering, sorting, and cleaning, all of which were crucial for ensuring data quality. PivotTables were employed to derive new variables and generate informative data visualizations.
 
 ## Tools & Skills
 Excel
@@ -13,37 +15,38 @@ Data Storytelling
 * Deliver insights that challenge stakeholder expectations
 
 ## Purpose & Context
-I performed an exploratory analysis to answer key stakeholder questions. I was responsible for deciding on the project scope and final presentation format. This project was a part of 
-CareerFoundry’s Data Immersion curriculum and was evaluated with feedback by a tutor and mentor.
+As part of CareerFoundry's Data Immersion curriculum, I executed an exploratory analysis to address crucial stakeholder inquiries. My responsibilities encompassed determining the project's scope and selecting the final presentation format. Throughout the project's development, it received evaluation and feedback from both a tutor and a mentor, ensuring a comprehensive and insightful learning experience.
 
 ## Data Cleaning and Transformation
-* Removed duplicates.
-* Removed columns with irrelevant data.
-* Imputed averages in columns for regional sales with partially missing data.
-* Removed empty rows.
-* Reformatted columns and values for consistency.
-* Labelled blank values as "N/A".
+* Duplicate entries within the dataset were identified and removed to enhance data accuracy.
+* Columns containing irrelevant data, which did not contribute to the analysis, were eliminated to streamline the dataset.
+* In columns related to regional sales with partial missing data, averages were imputed to maintain data completeness.
+* Rows with empty or null values were excluded from the dataset to ensure data integrity.
+* Columns and values were reformatted for consistency, aligning them with a unified data structure.
+* Empty values within the dataset were labeled as "N/A" to clearly signify missing or unspecified data points.
 
 ## Visualizations
 
-This analysis measured the three highest selling regions (North America, Europe, and Japan) in years 1983 to 2016. These years were chosen because data was available for all three regions. 
+The analysis focused on the evaluation of the top three selling regions, namely North America, Europe, and Japan, spanning the years from 1983 to 2016. These specific years were selected due to the availability of data across all three regions.
 
-I created a line graph of total units sold to determine which region had the highest number of sales. Historically, North America has dominated the global market for the longest period. The stakeholders assume 
-that North America will continue to hold the largest position in the global market. 
+To assess and compare the sales performance of these regions, a line graph representing the total units sold was generated. This graph indicated historical trends and insights into the regions' sales dynamics. Over the years, North America emerged as the dominant player in the global market, maintaining its position for an extended period. Consequently, stakeholders have been inclined to assume that North America will persist as the largest contributor to the global market.
 
-Other observations include a decline in sales beginning in 2009 and a convergance of sales for North America and Europe in 2015.
+Additional observations from the analysis include a notable decline in sales beginning in 2009, which signifies a potential turning point in the industry. Furthermore, the graph revealed a convergence of sales between North America and Europe in 2015, suggesting a shift in the balance of market influence between these regions.
 
 <img src="images/Total_Sales.png"/>
 
-I created a new variable to measure the proportion of regional total sales by global total sales for each year. This data was plotted on another line graph to visualize the behavior of the three regions over time. 
+
+To gain further insights into the behavior of the three regions (North America, Europe, and Japan) over time, a new variable measuring the proportion of regional total sales relative to the global total sales for each year was created. This variable allowed for the assessment of each region's contribution to the global market.
+
+Subsequently, the data representing these proportions was visualized using another line graph. This visualization provided a dynamic representation of how the market share of each region evolved over the years, shedding light on shifts in their relative importance and influence within the global market.
 
 <img src="images/Proportion_Sales.png"/>
 
-In 2016, Europe held the largest portion of global sales and surpassed North America in number of units sold.
+In 2016, Europe emerged as the leader in the global sales landscape. Not only did Europe hold the largest portion of global sales, but it also surpassed North America in the number of units sold.
 
 <img src="images/Units_Sold_2016.png"/>
 
-Shooter genres were the most popular in Europe and North America. Action genres were popular in all three regions.
+Shooter genres were the most popular in Europe and North America. Additionally, action genres were popular in all three regions.
 <p align="center">
 <img src="images/Europe_Sales.png" width="330" height="230"> 
   
@@ -52,7 +55,7 @@ Shooter genres were the most popular in Europe and North America. Action genres 
 <img src="images/Japan_Sales.png" width="330" height="230">
 </p>
 
-In 2016, there was a different top-selling publisher in each region:
+In 2016, there was a distinct top-selling video game publisher in each of the three regions:
 * **Europe**: Electronic Arts
 * **North America**: Ubisoft
 * **Japan**: Square Enix
@@ -60,10 +63,10 @@ In 2016, there was a different top-selling publisher in each region:
 <img src="images/Top_Publishers.png"/>
 
 ## Recommendations & Findings
-* Europe makes up most of the global market over North America and Japan.
-* Develop more Shooter games to satisfy the larger European and North American markets.
-* A secondary focus on Action genres to satisfy all three regions.
-* Perform further analysis to address competing publishing companies in each region.
+* Given that Europe dominates the global market over North America and Japan, it is advisable to prioritize efforts to cater to the European market. This may include tailoring game offerings, marketing campaigns, and distribution strategies to align with European preferences.
+* Recognizing the popularity of shooter genres in both Europe and North America, consider investing in the development of shooter games to satisfy the larger European and North American markets. These genres align with the preferences of these regions.
+* While shooter games should take precedence in European and North American markets, it's important to maintain a secondary focus on action genres. Action genres have a broad appeal and are popular across all three regions, making them a valuable addition to the game portfolio.
+* To gain a competitive edge, conduct further analysis to assess and understand the competing publishing companies in each region. This insight can inform strategies to effectively compete and secure market share.
 
 ## The Learning Experience
 Data cleansing was the biggest challenge in this project, mostly due to format differences in the video game titles. The line graph displaying the proportion of sales over time was generated with the help of my mentor. This visual challenged my original assumptions and my first line graph showing total count of sales 

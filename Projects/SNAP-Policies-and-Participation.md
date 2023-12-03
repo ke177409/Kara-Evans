@@ -47,31 +47,31 @@ Policies that do not impose restrictions on household vehicles and policies that
 Policies that allow telephone interviews (instead of face-to-face interviews) during initial certification had a moderate positive correlation with policies that allow households to apply for SNAP online (0.59). 
 
 <p align="center">
-<img src="Images/corr_heatmap_3.png" width=700 height=660>
+<img src="images/corr_heatmap_3.png" width=700 height=660>
 </p>
 
 A strong positive linear correlation of 0.89 was identified between individuals categorized as earners and non-earners, particularly among those subject to recertification periods lasting 7 to 12 months. I hypothesized that as earning proportions increase, nonearning proportions will also increase. To test this hypothesis, a linear regression analysis was conducted to examine how variations in the proportion of earners impact the proportions of non-earners. The model's performance metrics revealed promising results, with a mean squared error of 0.0339 and an R2 score of 0.7973 for the training set. These statistics indicate that the model exhibits strong predictive capability and aligns well with the data. This relationship is likely due to nonearning individuals, such as children or other dependents, living in the same household as earning individuals. 
 
 <p align="center">
-<img src="Images/regression_train.png" width=500 height=460>
+<img src="images/regression_train.png" width=500 height=460>
 </p>
 
 The EBT categorical plot was constructed to visualize the distribution of dollar percentages issued through EBT. Beginning in most of 2004 and onward, at least 80% of SNAP benefits were distributed via EBT across all states. 
 
 <p align="center">
-<img src="Images/EBT_catplot.png" width=700 height=400>
+<img src="images/EBT_catplot.png" width=700 height=400>
 </p>
 
 The fingerprint categorical plot was created to show which states reported certain fingerprint requirements. States could report "not required", "required in parts of state", or "required". Arizona, California, Massachusetts, New York, and Texas reported fingerprint requirements for SNAP applicants.
 
 <p align="center">
-<img src="Images/bar_fp.png">
+<img src="images/bar_fp.png">
 </p>
 
 A cluster analysis was performed using the k-means algorithm to identify groups within the raw data. A scatter plot comparing outreach spending and the proportion of earning individuals identified outlier data that was segregated into its own group. I consulted the original dataset and determined that this group represented outreach spending for the state of California. California has spent significantly more on outreach spending than other states. The remaining three cluster groups likely represent the earning, nonearning, and elderly groups.
 
 <p align="center">
-<img src="Images/cluster.png" width=700 height=560>
+<img src="images/cluster.png" width=700 height=560>
 </p>
 
 ## Recommendations & Findings

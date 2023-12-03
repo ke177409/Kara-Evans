@@ -79,7 +79,7 @@ Based on the insights derived from the analysis, several recommendations can be 
 
 Certain states have consistently high estimated participation rates. The difference between top performing states in 2016 was the presence of policies that grant waivers to allow telephone interviews at initial certification. The presence of this policy became more prevalent at the same time when proportions of earning and nonearning individuals increased.
 
-<b>Recommendation</b>: Remove barriers that prevent eligible populations from easily applying and recertifying for SNAP. Individuals should not be penalized because they lack the resources, such as time and transportation, to receive food assistance. Accomodations that consider these limitations for low-income households will encourage participation.
+<b>Recommendation</b>: Remove barriers that prevent eligible populations from easily applying and recertifying for SNAP. Individuals should not be penalized because they lack the resources, such as time and transportation, to receive food assistance. Accommodations that consider these limitations for low-income households will encourage participation.
 
 Vermont participation rates were high in 2013, but not in 2011. Policies granting waivers for in-person initial certification interviews was implemented in Vermont for the first time in January 2007, removed in April 2011, and reinstated in September 2012.
 

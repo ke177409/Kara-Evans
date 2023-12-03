@@ -3,6 +3,8 @@ The Supplemental Nutrition Assistance Program (SNAP) is a federally funded initi
 
 I conducted a thorough analysis aimed at identifying shifts in state policies and participation rates over time. Insights include relationships between SNAP recipient groups, relationships between different policies, and identification of policies potentially affecting participation rates. Python was used to clean data, perform exploratory analysis, and create data visualizations to detect relationships between different variables. Tableau was used to develop a user-friendly dashboard and supplemental visualizations.
 
+![](/images/Line%20Groups%20%26%20Policies.png)
+
 # [Medical Staffing Plan: Project Overview](https://ke177409.github.io/Kara-Evans/Projects/Medical-Staffing-Plan)
 In the United States, hospitals and clinics face a substantial influx of patients during influenza seasons, placing significant demands on both healthcare staff and patients seeking treatment. To address this challenge, I developed a strategic plan to assist a staffing agency in efficiently deploying medical personnel across the country during influenza seasons.
 

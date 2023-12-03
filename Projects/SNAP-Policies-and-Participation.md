@@ -57,11 +57,13 @@ A strong positive linear correlation of 0.89 was identified between individuals 
 </p>
 
 The EBT categorical plot was constructed to visualize the distribution of dollar percentages issued through EBT. Beginning in most of 2004 and onward, at least 80% of SNAP benefits were distributed via EBT across all states. 
+
 <p align="center">
 <img src="Images/EBT_catplot.png" width=700 height=400>
 </p>
 
 The fingerprint categorical plot was created to show which states reported certain fingerprint requirements. States could report "not required", "required in parts of state", or "required". Arizona, California, Massachusetts, New York, and Texas reported fingerprint requirements for SNAP applicants.
+
 <p align="center">
 <img src="Images/bar_fp.png">
 </p>
@@ -75,12 +77,13 @@ A cluster analysis was performed using the k-means algorithm to identify groups 
 ## Recommendations & Findings
 Based on the insights derived from the analysis, several recommendations can be made:
 
-* Certain states have consistently high estimated participation rates. The difference between top performing states in 2016 was the presence of policies that grant waivers to allow telephone interviews at initial certification. The presence of this policy became more prevalent at the same time when proportions of earning and nonearning individuals increased.
+Certain states have consistently high estimated participation rates. The difference between top performing states in 2016 was the presence of policies that grant waivers to allow telephone interviews at initial certification. The presence of this policy became more prevalent at the same time when proportions of earning and nonearning individuals increased.
 
-Recommendation: Remove barriers that prevent eligible populations from easily applying and recertifying for SNAP. Individuals should not be penalized because they lack the resources, such as time and transportation, to receive food assistance. Accomodations that consider these limitations for low-income households will encourage participation.
+<b>Recommendation</b>: Remove barriers that prevent eligible populations from easily applying and recertifying for SNAP. Individuals should not be penalized because they lack the resources, such as time and transportation, to receive food assistance. Accomodations that consider these limitations for low-income households will encourage participation.
 
-* Vermont participation rates were high in 2013, but not in 2011. Policies granting waivers for in-person initial certification interviews was implemented in Vermont for the first time in January 2007, removed in April 2011, and reinstated in September 2012.
-Recommendation: Policy makers should avoid frequent policy changes because this may be disruptive to eligible populations. Participants could suddenly lose eligibility and it may be difficult for individuals to understand the program's limitations and requirements.
+Vermont participation rates were high in 2013, but not in 2011. Policies granting waivers for in-person initial certification interviews was implemented in Vermont for the first time in January 2007, removed in April 2011, and reinstated in September 2012.
+
+<b>Recommendation</b>: Policy makers should avoid frequent policy changes because this may be disruptive to eligible populations. Participants could suddenly lose eligibility and it may be difficult for individuals to understand the program's limitations and requirements.
 
 ## The Learning Experience
 A choropleth map was generated to illustrate the average distribution of reported call centers across the United States, utilizing a scale where 0 denotes no call center presence, 1 indicates a call center, and 2 represents a call center situated in specific parts of a state. Unfortunately, the map's effectiveness in this analysis was limited due to the inability to appropriately adjust the color scale to accurately reflect the data.

@@ -15,13 +15,13 @@ My primary motivation is assisting others, whether it be in locating a missing d
 
 # Education
 ## Data Analytics Certificate | CareerFoundry
-*December 2023*
+*Graduated December 2023*
 
 An internet-based program focusing on the application of data analysis techniques using industry-standard tools. The curriculum encompasses essential topics such as evaluating data quality and transformation, statistical hypothesis testing, and data visualizations.
 
 ## Bachelor of Science, Biological Sciences | Ohio University
 ## Certificate in Environmental Studies | Ohio University
-*May 2014*
+*Graduated May 2014*
 
 # Professional History 
 ## Senior Processing Facility Technologist | Cleveland Cord Blood Center, March 2022-December 2022

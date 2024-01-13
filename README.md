@@ -11,7 +11,7 @@ My primary motivation is assisting others, whether it be in locating a missing d
 
 **Currently situated in Cleveland, Ohio, I am actively seeking full-time positions and am open to hybrid or remote opportunities.**
 
-### To gain a more comprehensive insight into my background and qualifications, please feel free to download my [resume](https://github.com/ke177409/Kara-Evans/blob/main/resume/Evans.Kara.Resume.pdf?raw=true)! 
+### To gain a more comprehensive insight into my background and qualifications, please feel free to download my [resume](https://github.com/ke177409/Kara-Evans/blob/main/resume/Evans.Kara.Resume.pdf?raw=true) and [project case studies](https://github.com/ke177409/Kara-Evans/blob/main/images/Case%20studies.pdf)!
 
 # Education
 ## Data Analytics Certificate | CareerFoundry

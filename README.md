@@ -1,13 +1,13 @@
 <img src="images/portfolio3.jpg"/>
 
 # About Me 
-Hi there! 👋 I'm Kara, a dedicated **data analyst** with a profound interest in exploring science-related subjects and tackling intricate challenges. I’m a creative thinker, which I believe is a result of being a left-handed person living in a right-handed world. I take pride in crafting my own solutions and often gravitate toward unconventional approaches because I believe that the best solution isn't always the most apparent one.
+Hi there! 👋 I'm a **data analyst** who enjoys exploring science-related subjects and untangling difficult problems. I’m a creative thinker, which I believe is a result of being a left-handed person living in a right-handed world. I take pride in crafting my own solutions and often gravitate toward unconventional approaches because I believe that the best solution isn't always the most apparent one.
 
-Throughout the past nine years, my career has predominantly revolved around biomedical laboratories, where I've been responsible for managing patient data, interpreting results, and conducting investigative work. Motivated to enhance my investigative capabilities, I decided to embrace the analytical aspect of my scientific background and pursued education in data analytics. In this journey, I have fortified my analytical skills with the application of **statistical analyses** and **machine learning techniques**, employing **SQL**, **Python**, and **Tableau**.
+My career has predominantly revolved around biomedical laboratories, where I've been responsible for managing patient data, interpreting results, and conducting investigative work. Motivated to enhance my investigative capabilities, I decided to embrace the analytical aspect of my scientific background and pursued education in data analytics. In this journey, I have fortified my analytical skills with the application of **statistical analyses** and **machine learning techniques**, employing **SQL**, **Python**, and **Tableau**.
 
 My professional experiences have deepened my commitment to furthering my career within the healthcare industry. I'm a self-initiator and plan to further cultivate my data skills, allowing me to scrutinize patient data and optimize software systems that influence the patient experience.
 
-My primary motivation is assisting others, whether it be in locating a missing document or resolving a minor technical issue. I'm eager to elevate my abilities to support my prospective team members and enhance the lives of those they serve.
+My primary motivation is assisting others, whether it be in locating a missing document or resolving a technical issue. I'm eager to elevate my abilities to support my prospective team members and enhance the lives of those they serve.
 
 **Currently situated in Cleveland, Ohio, I am actively seeking full-time positions and am open to hybrid or remote opportunities.**
 
@@ -17,7 +17,14 @@ My primary motivation is assisting others, whether it be in locating a missing d
 ## Data Analytics Certificate | CareerFoundry
 *Graduated December 2023*
 
-An internet-based program focusing on the application of data analysis techniques using industry-standard tools. The curriculum encompasses essential topics such as evaluating data quality and transformation, statistical hypothesis testing, and data visualizations.
+An online-based program focusing on the application of data analysis techniques using industry-standard tools:
+* Excel
+* SQL
+* Tableau
+* Python
+* Data quality and transformation
+* Statistical hypothesis testing
+* Data visualizations
 
 ## Bachelor of Science, Biological Sciences | Ohio University
 ## Certificate in Environmental Studies | Ohio University
@@ -26,11 +33,11 @@ An internet-based program focusing on the application of data analysis technique
 # Professional History 
 ## Senior Processing Facility Technologist | Cleveland Cord Blood Center, March 2022-December 2022
 * Served as the primary point of contact for addressing equipment and daily workflow issues.
-* Effectively oversaw departmental investigative reports, which involved monitoring report deadlines, conducting follow-up investigations, and reviewing reports submitted by team members.
-* Utilized critical thinking and root cause analysis techniques to conduct thorough investigations.
-* Developed and enhanced procedures and job aids to optimize new-hire training materials and minimize recurrent workflow errors.
-* Took a leadership role within a small team, collaborating to evaluate and present laboratory data, contributing to the formulation of the company's strategic objectives.
-* Assumed the role of the designated trainer for laboratory staff, including the delivery of initial training, final training sign-off, and competency assessments.
+* Oversaw departmental investigative reports, which involved monitoring report deadlines, conducting follow-up investigations, and reviewing reports submitted by team members.
+* Utilized critical thinking and root cause analysis techniques to implement corrective actions.
+* Developed and enhanced procedures and job aids to optimize training materials and mitigate workflow errors.
+* Led a small team to evaluate and present laboratory data, contributing to the organization's strategic objectives.
+* Designated trainer for laboratory staff, including the delivery of initial training, final training sign-off, and competency assessments.
 * Assigned weekly tasks to laboratory staff to maintain operational efficiency.
 
 ## Processing Facility Technologist | Cleveland Cord Blood Center, October 2018-March 2022
@@ -40,25 +47,26 @@ An internet-based program focusing on the application of data analysis technique
 * Carefully prepared cord blood units for dispatch to transplant recipients and research clients, adhering to strict protocols and quality standards.
 
 ## Laboratory Assistant | Cleveland Cord Blood Center, November 2017-October 2018
-* Documented laboratory data in Microsoft Excel and CordSource, a web-based application designed for the storage and tracking of clinical data related to cellular therapy products.
-* Executed routine maintenance procedures on laboratory equipment to ensure its continued functionality and reliability.
+* Documented laboratory data in Excel and CordSource, a web-based application designed for the storage and tracking of clinical data related to cellular therapy products.
+* Executed routine maintenance procedures on laboratory equipment to ensure its continued functionality.
 
 ## Laboratory Technician | Cleveland Clinic, September 2015-November 2017
-* Accurately documented patient data and entered laboratory specimen orders.
-* Maintained comprehensive specimen tracking records through the utilization of the laboratory information management system.
-* Employed strong decision-making abilities to efficiently resolve sample-related issues.
-* Maintained timely and effective communication with hospital staff concerning patient samples, ensuring a smooth workflow.
+* Accelerated patient sample processing by accurately inputting patient data and test orders into laboratory
+information management system.
+* Independently fielded questions and issues for team members using effective decision-making.
+* Maintained timely and effective communication with hospital staff concerning patient samples.
 
 ## Analyst | CWM Environmental, August 2014-September 2015
-* Conducted environmental analyses on industrial waste samples utilizing a laboratory information management system.
-* Monitored the status of samples to ensure compliance with client-specific deadlines.
+* Conducted environmental analyses on industrial waste samples.
+* Supported clients by answering questions using knowledge of testing and operational requirements.
+* Diligently recorded client data and sample results in laboratory information management system.
 
 # Other Employment
 ## Optometric Technician | Dr. Jodi Rowson & Associates, January 2023-present
-* Enter patient information into the electronic health record system.
-* Liaise with insurance companies to secure patient eligibility details and initiate prior authorization requests.
-* Conduct preliminary patient assessments prior to examinations.
-* Manage appointment scheduling and provide support for patient inquiries.
+* Collect patient medical history information and conduct basic eye examination tests.
+* Resolve patient inquiries using empathic customer service skills to maintain patient trust and satisfaction.
+* Communicate with insurance companies to obtain patient eligibility details and authorizations. 
+* Maintain detailed and well-documented health records in electronic practice management system.
 
 # Interested?
 ## Send e-mails to **kara.e177409 at gmail dot com**

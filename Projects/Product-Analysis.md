@@ -1,14 +1,15 @@
 # Product Analysis: Project Overview
 I conducted an analysis of a movie rental company's data in preparation for the launch of a new online streaming service. The analysis yielded valuable insights, including the identification of key geographical markets for promoting the company's brand, the top-earning films, and the recognition of loyal customers. To achieve these findings, I employed SQL to efficiently organize, clean, filter, and integrate data, allowing for a comprehensive understanding of customer behavior and geographic sales data. Subsequently, I harnessed these SQL results to craft informative visualizations using Tableau.
 
+### [GitHub Repo](https://github.com/ke177409/Product-Analysis)
 ### [Tableau Visuals](https://public.tableau.com/views/RockbusterFilmsCustomers/RentalDuration?:language=en-US&:display_count=n&:origin=viz_share_link)
 
 ## Tools & Skills
 PostgreSQL
 * Relational databases to manage and extract data.
 * Filter, summarize, and clean data.
-* Table joins, using primary and foreign keys, to establish meaningful relationships between different tables within the dataset.
-* Utilize subqueries and common table expressions to perform more complex queries.
+* [Inner joins](https://github.com/ke177409/Product-Analysis/blob/main/SQL_Inner_Joins.sql), using primary and foreign keys, to establish meaningful relationships between different tables within the dataset.
+* Utilize [subqueries](https://github.com/ke177409/Product-Analysis/blob/main/SQL_Subqueries.sql) and [common table expressions](https://github.com/ke177409/Product-Analysis/blob/main/SQL_CTE.sql) to perform more complex queries.
 
 Tableau
 * Data Manipulation

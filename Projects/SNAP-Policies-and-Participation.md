@@ -1,7 +1,43 @@
 # SNAP Policies and Participation: Project Overview
-The Supplemental Nutrition Assistance Program (SNAP) is a federally funded initiative collaborating with states to provide monthly food benefits to low-income individuals and households. Following welfare reform legislation in 1996, states gained greater autonomy in administering SNAP, leading to variances in state programs. This analysis aims to spotlight the evolution of policies in states with elevated participation rates. The premise is that as states adopt more accommodating policies for recipients, SNAP participation rates are likely to increase.
-
 ### [Tableau Dashboard](https://public.tableau.com/app/profile/kara.evans/viz/SNAPPoliciesParticipation/SNAPPoliciesParticipation?publish=yes)
+
+The Supplemental Nutrition Assistance Program (SNAP) is a federally funded initiative collaborating with states to provide monthly food benefits to low-income individuals and households. Following welfare reform legislation in 1996, states gained greater autonomy in administering SNAP, leading to variances in state programs. This analysis aims to spotlight the evolution of policies in states with elevated participation rates. As states adopt more accommodating policies for recipients, SNAP participation rates are likely to increase.
+<p align="center">
+<img src="Images/corr_heatmap_3.png" width=700 height=660>
+</p>
+A correlation heatmap was constructed using the Seaborn heatmap function in Python to reveal the influence of policies on one another. Five policies displayed significant correlations with each other:
+
+* **Broad-Based Categorical Eligibility** (BBCE) allows states to increase income and asset eligibility limits for low-income households. BBCE demonstrated a moderate positive correlation (0.59) with policies that refrain from limiting the **number of household vehicles**, which are considered assets.
+* Policies that do not impose restrictions on household vehicles and policies that offer the **simplified reporting option** had a slightly stronger correlation (0.61). Simplified reporting reduces the requirements for households to report changes in their circumstances.
+* Policies that allow **telephone interviews** (instead of face-to-face interviews) during initial certification had a moderate positive correlation with policies that allow households to **apply for SNAP online** (0.59). 
+
+<p align="center">
+<img src="Images/regression_train.png" width=500 height=460>
+</p>
+
+I hypothesized that as proportions of individuals with earned income increases, proportions of nonearning individuals will also increase. To test this hypothesis, a linear regression analysis was conducted to examine how variations in the proportion of earners impact the proportions of nonearners. A strong positive linear correlation of 0.89 was identified between these groups, particularly among those subject to 7-to-12 month recertification periods. The model had a mean squared error of 0.0339 and an R2 score of 0.7973 for the training set. These statistics indicate that the model exhibits strong predictive capability and aligns well with the data. This relationship is likely due to non-earning individuals, such as children or other dependents, living in the same household as earning individuals.
+
+<p align="center">
+<img src="Images/cluster.png" width=700 height=560>
+</p>
+
+A cluster analysis was performed using the k-means algorithm to identify groups within the raw data. A scatter plot comparing outreach spending and the proportion of earning individuals segregated outlier data into its own group. I consulted the original dataset and determined that this group represented outreach spending in California. California has spent significantly more on outreach spending than other states. The remaining three cluster groups likely represent the earning, nonearning, and elderly groups.
+
+## Recommendations & Findings
+Certain states have consistently high estimated participation rates. The difference between top performing states in 2016 was the presence of policies that grant waivers to allow telephone interviews at initial certification. The presence of this policy became more prevalent at the same time when proportions of earning and non-earning individuals increased.
+
+**Recommendation:** Remove barriers that prevent eligible populations from easily applying and recertifying for SNAP. Individuals should not be penalized because they lack the resources, such as time and transportation, to receive food assistance. Accommodations that consider these limitations for low-income households will encourage participation.
+
+Vermont participation rates were high in 2013, but not in 2011. Policies granting waivers for in-person initial certification interviews were implemented in Vermont for the first time in January 2007, removed in April 2011, and reinstated in September 2012.
+
+**Recommendation:** Policy makers should avoid frequent policy changes because this may be disruptive to eligible populations. Participants could suddenly lose eligibility and it may be difficult for individuals to understand the program's limitations and requirements.
+
+## Next Steps
+* Due to time constraints, this analysis focused on states with high estimated participation rates. To provide a more comprehensive understanding of policy influence, extending this analysis to encompass all states could yield additional insights.
+
+* Developing a reliable time series model to forecast the proportions of recipient groups and their recertification periods could promote policies that better accommodate the predominant SNAP recipient groups.
+
+* Augmenting the database with subsequent years' data would enhance the relevance and currency of the insights derived from the analysis.
 
 ## Data 
 This dashboard uses data from the U.S. Department of Agriculture's (USDA) Economic Research Service (ERS) SNAP Policy Database. This database identifies when certain policies are in effect for each state and the proportions of different SNAP recipient groups. Policy information is obtained from the USDA's Food Nutrition Service (FNS) surveys, policy research organizations, state policy manuals, and news articles. Data collection spans from January 1996 to December 2016 across all 50 states and the District of Columbia. However, some policy details for 2015 and 2016 were unavailable at the time of collection.
@@ -21,9 +57,6 @@ Packages: pandas, NumPy, Matplotlib, seaborn, folium, json, sklearn, statsmodels
 * Tested data for [stationarity](https://github.com/ke177409/SNAP-Policies-and-Participation/blob/main/Scripts/6.6%20Sourcing%20%26%20Analyzing%20Time%20Series%20Data.ipynb) using Dickey-Fuller test and autocorrelation plots.
 * Differenced data to ensure stationarity before conducting time-series analysis.
 
-## Purpose & Context
-I independently sourced relevant and reliable datasets to educate the general public and policy makers about SNAP. Advanced exploratory analysis techniques were used to gain a deeper understanding of the differences in participation and policies over time. An interactive dashboard was created to easily convey the complexity in the data.
-
 ## Data Cleaning & Transformation
 Summary of changes and modifications:
 * Omitted irrelevant columns "state_pc" and "state_fips".
@@ -35,56 +68,8 @@ Summary of changes and modifications:
   * "EBT category" to define different percentage levels of benefits allocated through electronic benefit transfers (EBT).
   * "Fingerprint requirement" to identify states with certain fingerprint requirements.
 
-## Visualizations
-The correlation heatmap was constructed using the Seaborn heatmap function in Python to reveal the influence of policies on one another. Notably, five policies displayed significant correlations with each other:
-
-Broad-Based Categorical Eligibility (BBCE) allows states to increase income and asset eligibility limits for low-income households. BBCE demonstrated a moderate positive correlation (0.59) with policies that refrain from limiting the number of household vehicles, which are considered assets.
-
-Policies that do not impose restrictions on household vehicles and policies that offer the simplified reporting option had a slightly stronger correlation (0.61). Simplified reporting reduces the requirements for households to report changes in their circumstances. 
-
-Policies that allow telephone interviews (instead of face-to-face interviews) during initial certification had a moderate positive correlation with policies that allow households to apply for SNAP online (0.59). 
-
-<p align="center">
-<img src="images/corr_heatmap_3.png" width=700 height=660>
-</p>
-
-I hypothesized that as earning proportions increase, nonearning proportions will also increase. To test this hypothesis, a linear regression analysis was conducted to examine how variations in the proportion of earners impact the proportions of non-earners. A strong positive linear correlation of 0.89 was identified between these groups, particularly among those subject to 7-to-12 month recertification periods. The model's performance metrics revealed promising results, with a mean squared error of 0.0339 and an R2 score of 0.7973 for the training set. These statistics indicate that the model exhibits strong predictive capability and aligns well with the data. This relationship is likely due to non-earning individuals, such as children or other dependents, living in the same household as earning individuals.
-
-<p align="center">
-<img src="images/regression_train.png" width=500 height=460>
-</p>
-
-The EBT categorical plot was constructed to visualize the distribution of dollar percentages issued through EBT. Beginning in most of 2004 and onward, at least 80% of SNAP benefits were distributed via EBT across all states. 
-<p align="center">
-<img src="images/EBT_catplot.png" width=700 height=400>
-</p>
-
-The fingerprint categorical plot was created to show which states reported certain fingerprint requirements. States could report "not required", "required in parts of state", or "required". Arizona, California, Massachusetts, New York, and Texas reported fingerprint requirements for SNAP applicants.
-<p align="center">
-<img src="images/bar_fp.png">
-</p>
-
-A cluster analysis was performed using the k-means algorithm to identify groups within the raw data. A scatter plot comparing outreach spending and the proportion of earning individuals segregated outlier data into its own group. I consulted the original dataset and determined that this group represented outreach spending in California. California has spent significantly more on outreach spending than other states. The remaining three cluster groups likely represent the earning, nonearning, and elderly groups.
-
-<p align="center">
-<img src="images/cluster.png" width=700 height=560>
-</p>
-
-## Recommendations & Findings
-Certain states have consistently high estimated participation rates. The difference between top performing states in 2016 was the presence of policies that grant waivers to allow telephone interviews at initial certification. The presence of this policy became more prevalent at the same time when proportions of earning and non-earning individuals increased.
-
-**Recommendation:** Remove barriers that prevent eligible populations from easily applying and recertifying for SNAP. Individuals should not be penalized because they lack the resources, such as time and transportation, to receive food assistance. Accommodations that consider these limitations for low-income households will encourage participation.
-
-Vermont participation rates were high in 2013, but not in 2011. Policies granting waivers for in-person initial certification interviews were implemented in Vermont for the first time in January 2007, removed in April 2011, and reinstated in September 2012.
-
-**Recommendation:** Policy makers should avoid frequent policy changes because this may be disruptive to eligible populations. Participants could suddenly lose eligibility and it may be difficult for individuals to understand the program's limitations and requirements.
-
-## Next Steps
-* Due to time constraints, this analysis focused on states with high estimated participation rates. To provide a more comprehensive understanding of policy influence, extending this analysis to encompass all states could yield additional insights.
-
-* Developing a reliable time series model to forecast the proportions of recipient groups and their recertification periods could promote policies that better accommodate the predominant SNAP recipient groups.
-
-* Augmenting the database with subsequent years' data would enhance the relevance and currency of the insights derived from the analysis.
+## Purpose & Context
+I independently sourced relevant and reliable datasets to educate the general public and policy makers about SNAP. Advanced exploratory analysis techniques were used to gain a deeper understanding of the differences in participation and policies over time. An interactive dashboard was created to easily convey the complexity in the data.
 
 ## The Learning Experience
 A choropleth map was generated to illustrate the average distribution of reported call centers across the United States. The legend denotes 0 as no call center, 1 as call center present, and 2 as call center situated in specific parts of a state. Unfortunately, the map's effectiveness in this analysis was limited due to the inability to appropriately adjust the color scale.

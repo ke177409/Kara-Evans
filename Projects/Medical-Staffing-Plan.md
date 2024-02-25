@@ -1,6 +1,5 @@
 # Medical Staffing Plan: Project Overview
-### [YouTube Project Walk-Through](https://youtu.be/UtJXxrL7UzY)
-### [Tableau Dashboard](https://public.tableau.com/views/U_S_InfluenzaData2010-2017/Story1?:language=en-US&:display_count=n&:origin=viz_share_link)
+### [YouTube Project Walk-Through](https://youtu.be/UtJXxrL7UzY) | [Tableau Dashboard](https://public.tableau.com/views/U_S_InfluenzaData2010-2017/Story1?:language=en-US&:display_count=n&:origin=viz_share_link)
 
 Hospitals and clinics experience an influx of patients during influenza seasons, placing significant demands on healthcare staff and patients seeking treatment. To address this challenge, I developed a strategic plan to assist a staffing agency in efficiently deploying medical personnel across the United States during influenza seasons.
 

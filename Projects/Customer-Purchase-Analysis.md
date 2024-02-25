@@ -1,5 +1,5 @@
 # Customer Purchase Analysis: Project Overview
-### [Jupyter Notebook](https://github.com/ke177409/Customer-Purchase-Analysis/blob/main/Scripts/9.%20Final%20Results%20and%20Visuals.ipynb)
+## [Jupyter Notebook](https://github.com/ke177409/Customer-Purchase-Analysis/blob/main/Scripts/9.%20Final%20Results%20and%20Visuals.ipynb)
 
 <p align="center">
 <img src="images/his_orders_day.png" width=370 height=330>

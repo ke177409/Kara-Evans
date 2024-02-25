@@ -1,9 +1,8 @@
 ## [SNAP Policies and Participation](https://ke177409.github.io/Kara-Evans/Projects/SNAP-Policies-and-Participation)
 Supplemental Nutrition Assistance Program policies and their effect on participation rates.
 <p>
-<img src="/images/corr_heatmap_3.png" width=400 height=400>
+<img src="images/corr_heatmap_3.png" width=400 height=400>
 </p>
-
 
 ## [Medical Staffing Plan](https://ke177409.github.io/Kara-Evans/Projects/Medical-Staffing-Plan)
 Impact of influenza infections and the presence of medical personnel across the United States.

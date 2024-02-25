@@ -3,7 +3,7 @@
 
 The Supplemental Nutrition Assistance Program (SNAP) is a federally funded initiative collaborating with states to provide monthly food benefits to low-income individuals and households. Following welfare reform legislation in 1996, states gained greater autonomy in administering SNAP, leading to variances in state programs. This analysis aims to spotlight the evolution of policies in states with elevated participation rates. As states adopt more accommodating policies for recipients, SNAP participation rates are likely to increase.
 <p align="center">
-<img src="Images/corr_heatmap_3.png" width=700 height=660>
+<img src="images/corr_heatmap_3.png" width=700 height=660>
 </p>
 A correlation heatmap was constructed using the Seaborn heatmap function in Python to reveal the influence of policies on one another. Five policies displayed significant correlations with each other:
 
@@ -12,13 +12,13 @@ A correlation heatmap was constructed using the Seaborn heatmap function in Pyth
 * Policies that allow **telephone interviews** (instead of face-to-face interviews) during initial certification had a moderate positive correlation with policies that allow households to **apply for SNAP online** (0.59). 
 
 <p align="center">
-<img src="Images/regression_train.png" width=500 height=460>
+<img src="images/regression_train.png" width=500 height=460>
 </p>
 
 I hypothesized that as proportions of individuals with earned income increases, proportions of nonearning individuals will also increase. To test this hypothesis, a linear regression analysis was conducted to examine how variations in the proportion of earners impact the proportions of nonearners. A strong positive linear correlation of 0.89 was identified between these groups, particularly among those subject to 7-to-12 month recertification periods. The model had a mean squared error of 0.0339 and an R2 score of 0.7973 for the training set. These statistics indicate that the model exhibits strong predictive capability and aligns well with the data. This relationship is likely due to non-earning individuals, such as children or other dependents, living in the same household as earning individuals.
 
 <p align="center">
-<img src="Images/cluster.png" width=700 height=560>
+<img src="images/cluster.png" width=700 height=560>
 </p>
 
 A cluster analysis was performed using the k-means algorithm to identify groups within the raw data. A scatter plot comparing outreach spending and the proportion of earning individuals segregated outlier data into its own group. I consulted the original dataset and determined that this group represented outreach spending in California. California has spent significantly more on outreach spending than other states. The remaining three cluster groups likely represent the earning, nonearning, and elderly groups.

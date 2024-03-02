@@ -1,7 +1,7 @@
 <img src="images/portfolio3.jpg"/>
 
 # About Me 
-Hi there! 👋 I'm a **data analyst** who enjoys exploring science-related subjects and untangling difficult problems. I’m a creative thinker, which I believe is a result of being a left-handed person living in a right-handed world. I take pride in crafting my own solutions and often gravitate toward unconventional approaches because I believe that the best solution isn't always the most apparent one.
+I'm a left-handed person living in a right-handed world and have always used creative **problem-solving** strategies to navigate my daily life. As a **data analyst** this makes me a **creative thinker** who likes to craft my own solutions and gravitate toward unconventional approaches because I believe that the best solution isn't always the most apparent one.
 
 My career has predominantly revolved around biomedical laboratories, where I've been responsible for managing patient data, interpreting results, and conducting investigative work. Motivated to enhance my investigative capabilities, I decided to embrace the analytical aspect of my scientific background and pursued education in data analytics. In this journey, I have fortified my analytical skills with the application of **statistical analyses** and **machine learning techniques**, employing **SQL**, **Python**, and **Tableau**.
 
@@ -9,7 +9,7 @@ My professional experiences have deepened my commitment to furthering my career 
 
 My primary motivation is assisting others, whether it be in locating a missing document or resolving a technical issue. I'm eager to elevate my abilities to support my prospective team members and enhance the lives of those they serve.
 
-**Currently situated in Cleveland, Ohio, I am actively seeking full-time positions and am open to hybrid or remote opportunities.**
+**Currently situated in Cleveland, Ohio, I am actively seeking a position in data analytics and am open to onsite, hybrid, or remote opportunities.**
 
 ### To gain a more comprehensive insight into my background and qualifications, download my [resume](https://github.com/ke177409/Kara-Evans/blob/main/resume/Evans.Kara.Resume.pdf?raw=true) and take a look at my [project case studies](https://github.com/ke177409/Kara-Evans/blob/main/images/Case%20studies.pdf)!
 

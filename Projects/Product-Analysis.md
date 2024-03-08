@@ -1,5 +1,13 @@
 # Product Analysis: Project Overview
-## [Tableau Visuals](https://public.tableau.com/views/RockbusterFilmsCustomers/RentalDuration?:language=en-US&:display_count=n&:origin=viz_share_link)
+## Tools & Skills
+**PostgreSQL**
+* Filter, summarize, and clean data.
+* [Inner joins](https://github.com/ke177409/Product-Analysis/blob/main/SQL_Inner_Joins.sql), using primary and foreign keys, to establish meaningful relationships between different tables within the dataset.
+* Utilize [subqueries](https://github.com/ke177409/Product-Analysis/blob/main/SQL_Subqueries.sql) and [common table expressions](https://github.com/ke177409/Product-Analysis/blob/main/SQL_CTE.sql) to perform more complex queries.
+
+**Tableau**
+* Data Manipulation
+* [Visualizations](https://public.tableau.com/views/RockbusterFilmsCustomers/RentalDuration?:language=en-US&:display_count=n&:origin=viz_share_link)
 
 <p align="center">
 <img src="images/Total%20Revenue%20%26%20Number%20of%20Rentals%20by%20Rating%20(2).png">
@@ -39,16 +47,6 @@ These customers exhibit a high lifetime value for the company due to their combi
 * Consider additional factors such as membership duration to obtain a more comprehensive understanding of customer loyalty.
 * Incorporate additional customer data measures, such as customer age, language preferences, movie genres, to serve various customer segments.
 * Regularly update film inventory based on customer demographics and behavior.
-
-## Tools & Skills
-**PostgreSQL**
-* Filter, summarize, and clean data.
-* [Inner joins](https://github.com/ke177409/Product-Analysis/blob/main/SQL_Inner_Joins.sql), using primary and foreign keys, to establish meaningful relationships between different tables within the dataset.
-* Utilize [subqueries](https://github.com/ke177409/Product-Analysis/blob/main/SQL_Subqueries.sql) and [common table expressions](https://github.com/ke177409/Product-Analysis/blob/main/SQL_CTE.sql) to perform more complex queries.
-
-**Tableau**
-* Data Manipulation
-* Visualizations
 
 ## Data Cleaning, Integration, & Transformation
 * Corrected missing and inaccurate values using insert commands.

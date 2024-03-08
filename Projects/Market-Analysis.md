@@ -1,11 +1,13 @@
 # Market Analysis: Project Overview
-## [GameCo 2017 Insights - PowerPoint](https://github.com/ke177409/Market-Analysis/blob/main/GameCo%202017%20Video%20Game%20Insights.pptx)
 ## Tools & Skills
 **Excel**
 * Data filtering and sorting
 * Grouping and summarizing data
 * Descriptive analysis
 * PivotTables to create new variables and visualizations.
+
+**PowerPoint**
+* [Final presentation.](https://github.com/ke177409/Market-Analysis/blob/main/GameCo%202017%20Video%20Game%20Insights.pptx)
 
 <img src="images/Proportion_Sales.png"/>
 

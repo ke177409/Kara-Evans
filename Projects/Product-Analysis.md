@@ -41,12 +41,12 @@ These customers exhibit a high lifetime value for the company due to their combi
 * Regularly update film inventory based on customer demographics and behavior.
 
 ## Tools & Skills
-PostgreSQL
+**PostgreSQL**
 * Filter, summarize, and clean data.
 * [Inner joins](https://github.com/ke177409/Product-Analysis/blob/main/SQL_Inner_Joins.sql), using primary and foreign keys, to establish meaningful relationships between different tables within the dataset.
 * Utilize [subqueries](https://github.com/ke177409/Product-Analysis/blob/main/SQL_Subqueries.sql) and [common table expressions](https://github.com/ke177409/Product-Analysis/blob/main/SQL_CTE.sql) to perform more complex queries.
 
-Tableau
+**Tableau**
 * Data Manipulation
 * Visualizations
 

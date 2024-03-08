@@ -1,5 +1,15 @@
 # Customer Purchase Analysis: Project Overview
-## [Jupyter Notebook](https://github.com/ke177409/Customer-Purchase-Analysis/blob/main/Scripts/9.%20Final%20Results%20and%20Visuals.ipynb)
+## Tools & Skills
+**Python Version: 3.11**
+
+Packages: pandas, NumPy, Matplotlib, seaborn, SciPy, pickle
+* [Descriptive analysis](https://github.com/ke177409/Customer-Purchase-Analysis/blob/main/Scripts/1.%20Orders%2C%20Products%20Data%20Import%20%26%20Descriptive%20Analysis.ipynb).
+* [Data wrangling and subsetting](https://github.com/ke177409/Customer-Purchase-Analysis/blob/main/Scripts/2.%20Data%20Wrangling%20%26%20Subsetting.ipynb).
+* [Data consistency checks](https://github.com/ke177409/Customer-Purchase-Analysis/blob/main/Scripts/3.%20Data%20Consistency%20Checks.ipynb).
+* [Merged data frames](https://github.com/ke177409/Customer-Purchase-Analysis/blob/main/Scripts/4.%20Combining%20%26%20Exporting%20Data.ipynb) using innner join.
+* [Derived new variables](https://github.com/ke177409/Customer-Purchase-Analysis/blob/main/Scripts/5.%20Deriving%20New%20Variables.ipynb) employing if- and for-loops.
+* Applied [grouping and aggregation](https://github.com/ke177409/Customer-Purchase-Analysis/blob/main/Scripts/6.%20Grouping%20Data%20%26%20Aggregating%20Variables.ipynb) techniques to organize and summarize data.
+* Created [visualizations](https://github.com/ke177409/Customer-Purchase-Analysis/blob/main/Scripts/8.%20Visualizations.ipynb).
 
 <p align="center">
 <img src="images/his_orders_day.png" width=370 height=330>
@@ -60,18 +70,6 @@ However, middle-aged parents are the largest segment within the customer demogra
 </p>
 
 * Incorporate additional measures such as average price and length of membership to determine customer loyalty status.
-
-## Tools & Skills
-**Python Version: 3.11**
-
-Packages: pandas, NumPy, Matplotlib, seaborn, SciPy, pickle
-* [Descriptive analysis](https://github.com/ke177409/Customer-Purchase-Analysis/blob/main/Scripts/1.%20Orders%2C%20Products%20Data%20Import%20%26%20Descriptive%20Analysis.ipynb).
-* [Data wrangling and subsetting](https://github.com/ke177409/Customer-Purchase-Analysis/blob/main/Scripts/2.%20Data%20Wrangling%20%26%20Subsetting.ipynb).
-* [Data consistency checks](https://github.com/ke177409/Customer-Purchase-Analysis/blob/main/Scripts/3.%20Data%20Consistency%20Checks.ipynb).
-* [Merged data frames](https://github.com/ke177409/Customer-Purchase-Analysis/blob/main/Scripts/4.%20Combining%20%26%20Exporting%20Data.ipynb) using innner join.
-* [Derived new variables](https://github.com/ke177409/Customer-Purchase-Analysis/blob/main/Scripts/5.%20Deriving%20New%20Variables.ipynb) employing if- and for-loops.
-* Applied [grouping and aggregation](https://github.com/ke177409/Customer-Purchase-Analysis/blob/main/Scripts/6.%20Grouping%20Data%20%26%20Aggregating%20Variables.ipynb) techniques to organize and summarize data.
-* Created [visualizations](https://github.com/ke177409/Customer-Purchase-Analysis/blob/main/Scripts/8.%20Visualizations.ipynb).
 
 ## Data Cleaning & Transformation
 * Columns containing irrelevant data were dropped from data frames.

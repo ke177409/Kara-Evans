@@ -35,7 +35,7 @@ In 2016, there was a distinct top-selling video game publisher in each of the th
 * Conduct further analysis to assess and understand the competing publishing companies in each region.
 
 ## Tools & Skills
-Excel
+**Excel**
 * Data filtering and sorting
 * Grouping and summarizing data
 * Descriptive analysis

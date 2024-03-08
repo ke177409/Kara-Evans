@@ -1,5 +1,11 @@
 # Market Analysis: Project Overview
 ## [GameCo 2017 Insights - PowerPoint](https://github.com/ke177409/Market-Analysis/blob/main/GameCo%202017%20Video%20Game%20Insights.pptx)
+## Tools & Skills
+**Excel**
+* Data filtering and sorting
+* Grouping and summarizing data
+* Descriptive analysis
+* PivotTables to create new variables and visualizations.
 
 <img src="images/Proportion_Sales.png"/>
 
@@ -33,13 +39,6 @@ In 2016, there was a distinct top-selling video game publisher in each of the th
 * Invest in the development of shooter games to satisfy the larger European and North American markets.
 * Maintain a secondary focus on action genres because they have broad appeal across all three regions.
 * Conduct further analysis to assess and understand the competing publishing companies in each region.
-
-## Tools & Skills
-**Excel**
-* Data filtering and sorting
-* Grouping and summarizing data
-* Descriptive analysis
-* PivotTables to create new variables and visualizations.
   
 ## Data Storytelling
 * PowerPoint presentation format

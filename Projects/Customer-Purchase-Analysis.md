@@ -62,7 +62,7 @@ However, middle-aged parents are the largest segment within the customer demogra
 * Incorporate additional measures such as average price and length of membership to determine customer loyalty status.
 
 ## Tools & Skills
-Python Version: 3.11
+**Python Version: 3.11**
 
 Packages: pandas, NumPy, Matplotlib, seaborn, SciPy, pickle
 * [Descriptive analysis](https://github.com/ke177409/Customer-Purchase-Analysis/blob/main/Scripts/1.%20Orders%2C%20Products%20Data%20Import%20%26%20Descriptive%20Analysis.ipynb).

@@ -1,6 +1,17 @@
 # Medical Staffing Plan: Project Overview
 ## [YouTube Project Walk-Through](https://youtu.be/UtJXxrL7UzY) | [Tableau Dashboard](https://public.tableau.com/views/U_S_InfluenzaData2010-2017/Story1?:language=en-US&:display_count=n&:origin=viz_share_link)
 
+## Tools & Skills
+**Excel**
+* Data cleansing and transformation using Pivot tables and CONCATENATE function to ensure data quality and consistency.
+* Integration of data sets using combined keys and XLOOKUP function.
+* Statistical hypothesis testing to define outliers and correlations using VAR, STDEV, AVERAGE, and CORREL functions.
+  
+**Tableau**
+* Data manipulation and transformation.
+* Spatial analysis techniques.
+* Data storytelling using visualizations.
+
 Hospitals and clinics experience an influx of patients during influenza seasons, placing significant demands on healthcare staff and patients seeking treatment. To address this challenge, I developed a strategic plan to assist a staffing agency in efficiently deploying medical personnel across the United States during influenza seasons.
 
 <img src="images/Map%20U.S.%20Deaths%20%26%20Pop..png" />
@@ -42,17 +53,6 @@ Influenza death counts were obtained from the Centers for Disease Control’s Na
 U.S. Census Bureau population data was recorded annually for each state and its counties from 2009 to 2017. Data includes total population, male total population, female total population, and population by age group.
 
 Records of patients with influenza-like illnesses (ILI) and provider data were provided by the U.S. Outpatient Influenza-like Illness Surveillance Network (ILINet). The data set includes the number of ILI visits and healthcare providers available by state from 2010 to 2019. ILI visits only capture respiratory-related illnesses with symptoms of fever plus cough or sore throat, which may over represent the number of influenza visits. Data was not available for the state of Florida in this data set.
-
-## Tools & Skills
-**Excel**
-* Data cleansing and transformation using Pivot tables and CONCATENATE function to ensure data quality and consistency.
-* Integration of data sets using combined keys and XLOOKUP function.
-* Statistical hypothesis testing to define outliers and correlations using VAR, STDEV, AVERAGE, and CORREL functions.
-  
-**Tableau**
-* Data manipulation and transformation.
-* Spatial analysis techniques.
-* Data storytelling using visualizations.
 
 ## Data Cleaning, Integration, & Transformation
 * Duplicate records in the U.S. Census dataset were eliminated, ensuring the retention of unique combinations of County, Year, and Population.

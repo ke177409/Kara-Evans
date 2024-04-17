@@ -1,18 +1,7 @@
 # Medical Staffing Plan: Project Overview
-## Tools & Skills
-**Excel**
-* Data cleansing and transformation using Pivot tables and CONCATENATE function to ensure data quality and consistency.
-* Integration of data sets using combined keys and XLOOKUP function.
-* Statistical hypothesis testing to define outliers and correlations using VAR, STDEV, AVERAGE, and CORREL functions.
-  
-**Tableau**
-* Data manipulation and transformation.
-* Spatial analysis techniques.
-* Data storytelling using [dashboard and visualizations](https://public.tableau.com/views/U_S_InfluenzaData2010-2017/Story1?:language=en-US&:display_count=n&:origin=viz_share_link).
+Hospitals and clinics experience an influx of patients during influenza seasons, placing significant demands on healthcare staff and patients seeking treatment. To address this challenge, I developed a strategic plan to assist a staffing agency in efficiently deploying medical personnel across the United States during influenza seasons. This project was a part of CareerFoundry's Data Immersion curriculum and was evaluated by my tutor and mentor. I defined the project's scope and selected the format for the final presentation.
 
 [YouTube Project Walk-Through](https://youtu.be/UtJXxrL7UzY)
-
-Hospitals and clinics experience an influx of patients during influenza seasons, placing significant demands on healthcare staff and patients seeking treatment. To address this challenge, I developed a strategic plan to assist a staffing agency in efficiently deploying medical personnel across the United States during influenza seasons.
 
 <img src="images/Map%20U.S.%20Deaths%20%26%20Pop..png" />
 
@@ -40,13 +29,6 @@ Staff-to-influenza patient ratios were calculated for each state. States with mo
 * The District of Columbia (D.C.) is the most understaffed. However, influenza death counts were not available for this analysis.
 * Louisiana and Georgia exhibit low staffing ratios and have moderate-high and high mortality rates, respectively.
 
-## Recommendations & Findings
-* The staffing agency should begin allocating medical staff in December each year when influenza death counts begin to increase.
-* Utilize the weighted average mortality rate and staff-to-patient ratio to determine the number of staff members required for each state.
-* Incorporate real-time updates into the dashboard to ensure that staffing remains responsive to evolving conditions.
-* Incorporate provider and patient data for the state of Florida to determine staff-to-patient ratios.
-* Extend the analysis to measure other factors that may affect influenza rates, such as access to vaccinations and education on influenza prevention.
-
 ## Data 
 Influenza death counts were obtained from the Centers for Disease Control’s National Center for Health Statistics (NCHS). Influenza deaths are identified by each state's statistics office using diagnostic codes to record cause of death. Individuals are grouped by age range, and month and year of death from 2009 to 2017. Records with less than ten death counts are suppressed as part of the privacy policy for this data set and are excluded from this analysis. All records were suppressed for the District of Columbia.
 
@@ -62,8 +44,23 @@ Records of patients with influenza-like illnesses (ILI) and provider data were p
 * Age groups were restructured into a consistent format.
 * Created a new variable that normalizes the mortality rates for each age group.
 
-## Purpose & Context
-This project was a part of CareerFoundry's Data Immersion curriculum and was evaluated by my tutor and mentor. I defined the project's scope and selected the format for the final presentation.
+## Tools & Skills
+**Excel**
+* Data cleansing and transformation using Pivot tables and CONCATENATE function to ensure data quality and consistency.
+* Integration of data sets using combined keys and XLOOKUP function.
+* Statistical hypothesis testing to define outliers and correlations using VAR, STDEV, AVERAGE, and CORREL functions.
+  
+**Tableau**
+* Data manipulation and transformation.
+* Spatial analysis techniques.
+* Data storytelling using [dashboard and visualizations](https://public.tableau.com/views/U_S_InfluenzaData2010-2017/Story1?:language=en-US&:display_count=n&:origin=viz_share_link).
+
+## Recommendations & Findings
+* The staffing agency should begin allocating medical staff in December each year when influenza death counts begin to increase.
+* Utilize the weighted average mortality rate and staff-to-patient ratio to determine the number of staff members required for each state.
+* Incorporate real-time updates into the dashboard to ensure that staffing remains responsive to evolving conditions.
+* Incorporate provider and patient data for the state of Florida to determine staff-to-patient ratios.
+* Extend the analysis to measure other factors that may affect influenza rates, such as access to vaccinations and education on influenza prevention.
   
 ## The Learning Experience
 The weighted average mortality rate played a significant role in this analysis, a calculated variable created with the guidance of my mentor. This calculation focused on areas with the greatest impact based on death rates in relation to population proportions. Focusing on states with the most death and population counts would exclude a large portion of the country from receiving medical assistance.

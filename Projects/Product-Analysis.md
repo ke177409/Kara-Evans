@@ -1,19 +1,11 @@
 # Product Analysis: Project Overview
-## Tools & Skills
-**PostgreSQL**
-* Filter, summarize, and clean data.
-* [Inner joins](https://github.com/ke177409/Product-Analysis/blob/main/SQL_Inner_Joins.sql), using primary and foreign keys, to establish meaningful relationships between different tables within the dataset.
-* Utilize [subqueries](https://github.com/ke177409/Product-Analysis/blob/main/SQL_Subqueries.sql) and [common table expressions](https://github.com/ke177409/Product-Analysis/blob/main/SQL_CTE.sql) to perform more complex queries.
-
-**Tableau**
-* Data Manipulation
-* [Visualizations](https://public.tableau.com/views/RockbusterFilmsCustomers/RentalDuration?:language=en-US&:display_count=n&:origin=viz_share_link)
+Customer data was analyzed for a movie rental company in preparation for the launch of a new online streaming service. I was responsible for defining the project's scope and determining the final presentation format. This project was a part of CareerFoundry’s Data Immersion curriculum and was evaluated by my tutor and mentor. 
 
 <p align="center">
 <img src="images/Total%20Revenue%20%26%20Number%20of%20Rentals%20by%20Rating%20(2).png">
 </p>
 
-Customer data was analyzed for a movie rental company in preparation for the launch of a new online streaming service. Rental identification numbers were used to track the frequency of film rentals. PG-13 films had the highest rental rates and the highest count of rentals. These films generated the highest revenue compared to other film ratings, underscoring their popularity among customers.
+Rental identification numbers were used to track the frequency of film rentals. PG-13 films had the highest rental rates and the highest count of rentals. These films generated the highest revenue compared to other film ratings, underscoring their popularity among customers. 
 
 <img src="images/Top%2010%20countries.png" />
 
@@ -41,13 +33,6 @@ To identify the top customers, a search was conducted based on the total amount 
 
 These customers exhibit a high lifetime value for the company due to their combination of significant spending and frequent rental activity. Two of these four high-value customers were also situated in one of the top 10 countries (USA and Brazil).
 
-## Recommendations & Findings
-* Focus on promoting the company's brand in Asian markets to capitalize on the existing customer presence.
-* Acquire and promote more PG-13 rated films to generate the most revenue.
-* Consider additional factors such as membership duration to obtain a more comprehensive understanding of customer loyalty.
-* Incorporate additional customer data measures, such as customer age, language preferences, movie genres, to serve various customer segments.
-* Regularly update film inventory based on customer demographics and behavior.
-
 ## Data Cleaning, Integration, & Transformation
 * Corrected missing and inaccurate values using insert commands.
 * Removed irrelevant data using delete commands.
@@ -56,8 +41,22 @@ These customers exhibit a high lifetime value for the company due to their combi
 * Performed inner joins to connect tables.
 * Composed outer statements to generate new variables, such as "average_amount_paid" and "top_customer_count".
 
-## Purpose & Context
-I was responsible for defining the project's scope and determining the final presentation format. This project was a part of CareerFoundry’s Data Immersion curriculum and was evaluated by my tutor and mentor.
+## Tools & Skills
+**PostgreSQL**
+* Filter, summarize, and clean data.
+* [Inner joins](https://github.com/ke177409/Product-Analysis/blob/main/SQL_Inner_Joins.sql), using primary and foreign keys, to establish meaningful relationships between different tables within the dataset.
+* Utilize [subqueries](https://github.com/ke177409/Product-Analysis/blob/main/SQL_Subqueries.sql) and [common table expressions](https://github.com/ke177409/Product-Analysis/blob/main/SQL_CTE.sql) to perform more complex queries.
+
+**Tableau**
+* Data Manipulation
+* [Visualizations](https://public.tableau.com/views/RockbusterFilmsCustomers/RentalDuration?:language=en-US&:display_count=n&:origin=viz_share_link)
+  
+## Recommendations & Findings
+* Focus on promoting the company's brand in Asian markets to capitalize on the existing customer presence.
+* Acquire and promote more PG-13 rated films to generate the most revenue.
+* Consider additional factors such as membership duration to obtain a more comprehensive understanding of customer loyalty.
+* Incorporate additional customer data measures, such as customer age, language preferences, movie genres, to serve various customer segments.
+* Regularly update film inventory based on customer demographics and behavior.
 
 ## The Learning Experience
 This project involved a lot of SQL troubleshooting and practice with my mentor. Common table expressions and subqueries were one of the biggest challenges but allowed me to create variables that provided useful information in my analysis.

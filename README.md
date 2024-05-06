@@ -14,7 +14,7 @@ My primary motivation is assisting others, whether it be in locating a missing d
 ### To gain a more comprehensive insight into my background and qualifications, download my [resume](https://github.com/ke177409/Kara-Evans/blob/main/resume/Evans.Kara.Resume.pdf?raw=true) and take a look at my [project case studies](https://github.com/ke177409/Kara-Evans/blob/main/images/Case%20studies.pdf)!
 
 # Education
-## Data Analytics Certificate | CareerFoundry
+## [Data Analytics Certificate](https://github.com/ke177409/Kara-Evans/blob/main/resume/CareerFoundry_Certificate_Kara%20Evans%20(1).pdf) | CareerFoundry
 *Graduated December 2023*
 
 An online-based program focusing on the application of data analysis techniques using industry-standard tools:
